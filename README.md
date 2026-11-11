@@ -80,13 +80,16 @@ altri sport.
 > repository. Il radar fa un commit a ogni novità, quindi di norma resta attivo.
 > Se si ferma, riattivalo dalla scheda *Actions*.
 
-### 4. Facoltativo: ricerca Google
-1. Su **programmablesearchengine.google.com** crea un motore di ricerca.
-   Inserisci i siti da coprire (catawiki.com, depop.com, classicfootballshirts.co.uk,
-   todocoleccion.net) e copia l'**ID motore** (`GOOGLE_CX`).
-2. Su **console.cloud.google.com** attiva *Custom Search API* e crea una
-   **chiave API** (`GOOGLE_API_KEY`). Sono 100 ricerche al giorno gratis: il
-   radar ne usa circa 50.
+### 4. Ricerca Google: non più disponibile
+Google ha chiuso la Custom Search JSON API ai nuovi clienti (gennaio 2026) e la
+spegne il 1° gennaio 2027, quindi questo passaggio va saltato. Il radar la
+ignora da solo se mancano `GOOGLE_API_KEY` / `GOOGLE_CX`.
+
+Per i siti che bloccano i robot usa i loro avvisi nativi:
+- **Subito**: nell'app cerca, tocca *Salva ricerca* e attiva le notifiche
+  (es. "maglia bari", "as bari", "ssc bari", "tuta bari", "giacca bari", "maglia wuber").
+- **Catawiki**: salva la ricerca "Bari" nella categoria maglie da calcio per
+  ricevere le email.
 
 ---
 
