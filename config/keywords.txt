@@ -1,0 +1,202 @@
+# PAROLE CHIAVE - MAGLIE BARI CALCIO
+# Una parola chiave per riga. Le righe con # sono commenti.
+# Fonti: it.wikipedia / en.wikipedia (pagine S.S.C. Bari), lette il 9-10/11/2026.
+#
+# COME VENGONO USATE: un annuncio corrisponde a una riga se il titolo contiene
+# TUTTE le parole della riga, in qualsiasi ordine (maiuscole, accenti e punti
+# non contano). Esempio: "maglia wuber" trova "Maglia Adidas Wuber 1993 L".
+# Per aggiungere una keyword basta aggiungere una riga.
+
+# --- DENOMINAZIONI DEL CLUB ---
+maglia bari
+maglia bari calcio
+maglia AS Bari
+maglia A.S. Bari
+maglia SSC Bari
+maglia S.S.C. Bari
+maglia FC Bari 1908
+maglia F.C. Bari 1908
+maglia Bari 1908
+maglia US Bari
+maglia Associazione Sportiva Bari
+maglia Società Sportiva Calcio Bari
+maglia Football Club Bari 1908
+maglia biancorossa bari
+maglia galletti
+maglia galletto bari
+maglia bari vintage
+maglia bari anni 80
+maglia bari anni 90
+maglia bari anni 2000
+maglia bari retro
+maglia bari originale
+maglia bari indossata
+maglia bari match worn
+maglia bari preparata
+maglia bari autografata
+maglia bari serie A
+maglia bari mitropa cup
+maglia bari 1990
+maglia bari san nicola
+divisa bari calcio
+casacca bari
+completino bari
+maglietta bari calcio
+maglia trasferta bari
+maglia terza bari
+maglia portiere bari
+felpa bari calcio
+giacca bari calcio
+tuta bari calcio
+
+# --- INGLESE ---
+bari shirt
+bari jersey
+bari football shirt
+bari soccer jersey
+bari home shirt
+bari away shirt
+bari third shirt
+bari kit
+AS Bari shirt
+AS Bari jersey
+SSC Bari shirt
+SSC Bari jersey
+bari vintage shirt
+bari retro shirt
+bari match worn shirt
+bari player issue
+
+# --- SPAGNOLO / ALTRE LINGUE ---
+camiseta bari
+camiseta AS Bari
+camiseta SSC Bari
+camiseta bari vintage
+camiseta bari retro
+bari trikot
+AS Bari trikot
+maillot bari
+maillot AS Bari
+camisola bari
+
+# --- SPONSOR TECNICI (con "bari") ---
+# Puma 1978-79 | Pouchain 1979-81 | Adidas 1981-97 | Lotto 1997-2005
+# Erreà 2005-15 | Nike 2015-16 | Umbro 2016-17 | Zeus Sport 2017-18
+# Kappa 2018-24 | Erreà 2024-oggi
+puma bari
+pouchain bari
+adidas bari
+lotto bari
+errea bari
+erreà bari
+nike bari
+umbro bari
+zeus bari
+zeus sport bari
+kappa bari
+
+# --- SPONSOR DI MAGLIA (spesso il venditore scrive solo questi) ---
+# 1981-84 MAN
+maglia bari MAN
+adidas MAN bari
+# 1984-87 Cassa di Puglia
+maglia cassa di puglia
+bari cassa di puglia
+# 1987-90 Sud Leasing
+maglia sud leasing
+bari sud leasing
+# 1990-92 Sud Factoring (anni di Mitropa Cup e San Nicola)
+maglia sud factoring
+bari sud factoring
+# 1992-95 Wuber
+maglia wuber
+maglia wüber
+adidas wuber
+bari wuber
+# 1995-97 CEPU
+maglia cepu
+bari cepu
+adidas cepu
+# 1997-98 Gio.Bi
+bari giobi
+bari gio.bi
+lotto giobi
+# 1998-2001 Tele+ (era Cassano)
+maglia tele+
+maglia tele piu
+bari tele+
+lotto tele+
+# 2002-03 asbari.com
+maglia asbari.com
+# 2003-05 Pasta Ambra
+bari pasta ambra
+lotto pasta ambra
+# 2005-09 Gaudianello
+maglia gaudianello
+bari gaudianello
+errea gaudianello
+# 2009-12 Radionorba / Banca Popolare di Bari (Serie A Conte-Ventura)
+bari radionorba
+bari banca popolare di bari
+errea radionorba
+# 2012-13 Fashion District
+bari fashion district
+# 2013-15 SuisseGas
+bari suissegas
+# 2015-16 Puglia Promozione
+bari puglia promozione
+nike bari puglia
+# 2016-17 Betaland
+bari betaland
+umbro betaland
+# 2017-18 Peroni
+bari peroni
+zeus peroni
+# 2018-21 Sorgesana / DAZN / Peroni / Granoro
+bari sorgesana
+kappa sorgesana
+bari dazn
+# 2021-24 Acqua Amata / Decò / Molino Casillo / Granoro
+bari acqua amata
+bari decò
+bari molino casillo
+bari granoro
+# 2024-25 Go Up
+bari go up
+errea go up
+# 2025-26 Betsson
+bari betsson
+errea betsson
+
+# --- GIOCATORI STORICI (con "maglia" e/o "bari") ---
+maglia cassano bari
+cassano bari
+maglia protti bari
+protti bari
+gillet bari
+loseto bari
+maglia bonucci bari
+ranocchia bari
+zambrotta bari
+platt bari
+david platt bari
+boban bari
+maiellaro bari
+joao paulo bari
+ventola bari
+masinga bari
+kennet andersson bari
+tovalieri bari
+amoruso bari
+spinesi bari
+antenucci bari
+osmanovski bari
+enyinnaya bari
+barreto bari
+costantino bari
+bretti bari
+lorenzo bari
+neqrouz bari
+cheddira bari
+puscas bari
+sciaudone bari
