@@ -1,5 +1,79 @@
 [
  {
+  "id": "vinted:10768218301",
+  "title": "Maglia Del Bari Firmata Da Floro Flores Edizione Limitata 2017",
+  "url": "https://www.vinted.it/items/10768218301-maglia-del-bari-firmata-da-floro-flores-edizione-limitata-2017",
+  "price": 6.0,
+  "currency": "EUR",
+  "image": "https://images1.vinted.net/t/05_00b9e_w4HphdZJbi6pB7fvFec3wN79/310x430/797e51e2.webp?s=db7b44f708d3fb13600aa9ce1b05716f77572b73",
+  "source": "vinted.it",
+  "kind": "marketplace",
+  "auction": false,
+  "location": "",
+  "available": true,
+  "first_seen": "2026-11-11T18:49:48+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
+  "section": "maglie",
+  "tags": [
+   "moderna"
+  ],
+  "year": 2017,
+  "year_guess": false,
+  "keyword": "bari maglia",
+  "price_eur": 6.0,
+  "price_ref": 26,
+  "price_comps": 14,
+  "price_rating": "buono"
+ },
+ {
+  "id": "vinted:10768019015",
+  "title": "Felpa leggera per runner, SSC Bari calcio.No Ultras",
+  "url": "https://www.vinted.it/items/10768019015-felpa-leggera-per-runner-ssc-bari-calciono-ultras",
+  "price": 32.0,
+  "currency": "EUR",
+  "image": "https://images1.vinted.net/t/02_014b3_DTZfCcvgRLZhknxHy2zxtBLu/310x430/ac3be586.webp?s=7b92c34badd808b7a1375fcc5a68cfb1ef8dc49e",
+  "source": "vinted.it",
+  "kind": "marketplace",
+  "auction": false,
+  "location": "",
+  "available": true,
+  "first_seen": "2026-11-11T18:49:48+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
+  "section": "abbigliamento",
+  "tags": [],
+  "year": null,
+  "year_guess": false,
+  "keyword": null,
+  "price_eur": 32.0,
+  "price_ref": 49,
+  "price_comps": 5,
+  "price_rating": "buono"
+ },
+ {
+  "id": "vinted:10372277768",
+  "title": "pantaloni lunghi ssc bari",
+  "url": "https://www.vinted.it/items/10372277768-pantaloni-lunghi-ssc-bari",
+  "price": 9.0,
+  "currency": "EUR",
+  "image": "https://images1.vinted.net/t/04_00e4e_YHym9jva9aeXqgZH7541mNBN/310x430/4a02edde.webp?s=1216136aa12940982e6cb7eb06aef740d8997ada",
+  "source": "vinted.it",
+  "kind": "marketplace",
+  "auction": false,
+  "location": "",
+  "available": true,
+  "first_seen": "2026-11-11T18:49:48+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
+  "section": "abbigliamento",
+  "tags": [],
+  "year": null,
+  "year_guess": false,
+  "keyword": null,
+  "price_eur": 9.0,
+  "price_ref": 22,
+  "price_comps": 6,
+  "price_rating": "buono"
+ },
+ {
   "id": "vinted:10766958459",
   "title": "maglia calcio bari 2006-2007 cazzola 25 erreà match worn shirt",
   "url": "https://www.vinted.it/items/10766958459-maglia-calcio-bari-2006-2007-cazzola-25-errea-match-worn-shirt",
@@ -12,7 +86,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -20,7 +94,12 @@
   ],
   "year": 2006,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 99.9,
+  "price_ref": 109,
+  "price_comps": 12,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10766661609",
@@ -35,7 +114,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -43,7 +122,12 @@
   ],
   "year": 2007,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 99.9,
+  "price_ref": 109,
+  "price_comps": 12,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10752253722",
@@ -58,12 +142,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "vintage"
+  ],
+  "year": 2000,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 160.0,
+  "price_ref": 170,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10743018544",
@@ -78,14 +169,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 2006,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 70.0,
+  "price_ref": 190,
+  "price_comps": 6,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10733929843",
@@ -100,14 +196,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1998,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 90.0,
+  "price_ref": 100,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10648007300",
@@ -122,12 +223,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 8.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10625868835",
@@ -142,12 +248,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 80.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10621876062",
@@ -162,14 +273,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
-  "year": null,
+  "year": 1990,
   "keyword": "adidas bari",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 100.0,
+  "price_ref": 100,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10598369764",
@@ -184,12 +300,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 30.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10610586457",
@@ -204,14 +325,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 2013,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 25.0
  },
  {
   "id": "vinted:10563567224",
@@ -226,7 +349,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -234,7 +357,12 @@
   ],
   "year": 2011,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 50.0,
+  "price_ref": 109,
+  "price_comps": 12,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10585152862",
@@ -249,14 +377,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1989,
   "keyword": "bari trikot",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 150.0,
+  "price_ref": 180,
+  "price_comps": 26,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10765290823",
@@ -271,12 +404,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 68.0
  },
  {
   "id": "vinted:10759407801",
@@ -291,12 +428,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 10.0,
+  "price_ref": 22,
+  "price_comps": 6,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10746239300",
@@ -311,12 +453,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 60.0
  },
  {
   "id": "vinted:10746215948",
@@ -331,12 +475,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 100.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10738382202",
@@ -351,12 +502,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 20,
+  "price_comps": 5,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10734110446",
@@ -371,12 +527,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 15.0
  },
  {
   "id": "vinted:10713550544",
@@ -391,14 +551,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
-  "year": null,
+  "year": 1988,
   "keyword": "bari lotto",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 80.0,
+  "price_ref": 180,
+  "price_comps": 26,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10692352575",
@@ -413,12 +578,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 25.0,
+  "price_ref": 49,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10688527592",
@@ -433,12 +603,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 19.9,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10688895023",
@@ -453,14 +630,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2021,
   "keyword": "bari camiseta",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 35.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10665794380",
@@ -475,12 +657,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 150.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10665768642",
@@ -495,12 +684,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 150.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10660272899",
@@ -515,14 +709,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2023,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 60.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10654207149",
@@ -537,14 +736,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1999,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 299,
+  "price_comps": 11,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10645916568",
@@ -559,12 +763,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 60.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10648868729",
@@ -579,14 +790,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
   ],
   "year": 2023,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 17.0
  },
  {
   "id": "vinted:10645878176",
@@ -601,14 +814,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2027,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 84.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10645899650",
@@ -623,12 +841,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 39.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10645889544",
@@ -643,12 +868,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 39.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10638827303",
@@ -663,12 +895,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.0
  },
  {
   "id": "vinted:10638131881",
@@ -683,14 +917,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 200.0,
+  "price_ref": 155,
+  "price_comps": 26,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10606079637",
@@ -705,12 +944,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 12.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10611051765",
@@ -725,12 +969,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 80.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10612689080",
@@ -745,14 +994,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
-  "year": null,
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 65.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10613541327",
@@ -767,14 +1021,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2023,
   "keyword": "bari maillot",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10604676114",
@@ -789,12 +1048,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 10.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10593871545",
@@ -809,12 +1075,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 2.0
  },
  {
   "id": "vinted:10594617421",
@@ -829,12 +1097,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 180.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10589933495",
@@ -849,12 +1122,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari cassano",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 12.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10567183908",
@@ -869,12 +1147,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari camiseta",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 90.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10562893201",
@@ -889,12 +1174,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 150.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10495689059",
@@ -909,12 +1201,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 84.0,
+  "price_ref": 20,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10563406596",
@@ -929,12 +1226,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 8.0
  },
  {
   "id": "vinted:10506366866",
@@ -949,12 +1250,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 6.0
  },
  {
   "id": "vinted:10554518715",
@@ -969,12 +1272,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 49.0,
+  "price_ref": 32,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10468700391",
@@ -989,14 +1297,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.0,
+  "price_ref": 35,
+  "price_comps": 39,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10552953494",
@@ -1011,12 +1324,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 30.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10546637748",
@@ -1031,12 +1349,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 45.0,
+  "price_ref": 20,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10546613637",
@@ -1051,12 +1374,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 45.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10546695597",
@@ -1071,12 +1399,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 39.0,
+  "price_ref": 20,
+  "price_comps": 6,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10506434531",
@@ -1091,12 +1424,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari completino",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 15.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10495672000",
@@ -1111,12 +1449,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 84.0,
+  "price_ref": 32,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10542749874",
@@ -1131,12 +1474,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 35.0
  },
  {
   "id": "vinted:10534239707",
@@ -1151,12 +1498,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2017,
   "keyword": "bari maillot",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 24.0,
+  "price_ref": 23,
+  "price_comps": 14,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10449416733",
@@ -1171,12 +1525,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 10.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10477178680",
@@ -1191,12 +1552,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari calcio felpa",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 49,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10460811696",
@@ -1211,14 +1577,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 60.0,
+  "price_ref": 180,
+  "price_comps": 26,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10455095083",
@@ -1233,12 +1604,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 15.0
  },
  {
   "id": "vinted:10412044490",
@@ -1253,12 +1628,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 25.0,
+  "price_ref": 15,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10411041932",
@@ -1273,12 +1655,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 15.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10409902224",
@@ -1293,12 +1680,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10409852769",
@@ -1313,12 +1705,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 25.0,
+  "price_ref": 20,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10286968506",
@@ -1333,14 +1730,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 70.0,
+  "price_ref": 109,
+  "price_comps": 12,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10409706909",
@@ -1355,14 +1757,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
   ],
   "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 15.0,
+  "price_ref": 18,
+  "price_comps": 5,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10387727460",
@@ -1377,12 +1784,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 15.0
  },
  {
   "id": "vinted:10409735359",
@@ -1402,7 +1811,11 @@
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 20.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10409995443",
@@ -1424,7 +1837,8 @@
   ],
   "year": 2019,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 20.0
  },
  {
   "id": "vinted:10374540605",
@@ -1444,7 +1858,8 @@
   "tags": [],
   "year": null,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "price_eur": 15.0
  },
  {
   "id": "vinted:10374497852",
@@ -1459,12 +1874,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 15.0
  },
  {
   "id": "vinted:10755584795",
@@ -1479,12 +1898,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 8.0
  },
  {
   "id": "vinted:10767200328",
@@ -1499,12 +1920,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 45.0
  },
  {
   "id": "vinted:10762397014",
@@ -1524,7 +1947,11 @@
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 170.0,
+  "price_ref": 32,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10217555915",
@@ -1546,7 +1973,11 @@
   ],
   "year": 1994,
   "keyword": "bari lotto",
-  "seed": true
+  "seed": true,
+  "price_eur": 39.0,
+  "price_ref": 299,
+  "price_comps": 11,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:5787384619",
@@ -1561,14 +1992,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
-  "year": null,
+  "year": 1993,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 200.0,
+  "price_ref": 299,
+  "price_comps": 11,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10581800578",
@@ -1583,7 +2019,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -1591,7 +2027,12 @@
   ],
   "year": 2006,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 119.0,
+  "price_ref": 100,
+  "price_comps": 12,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10023226397",
@@ -1606,14 +2047,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 55.0,
+  "price_ref": 109,
+  "price_comps": 12,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9922763711",
@@ -1628,12 +2074,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 5.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9342552118",
@@ -1648,14 +2099,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 18.0,
+  "price_ref": 180,
+  "price_comps": 26,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9013681430",
@@ -1670,12 +2126,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "vintage"
+  ],
+  "year": 2007,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 220.0,
+  "price_ref": 140,
+  "price_comps": 6,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:8880715860",
@@ -1690,12 +2153,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 80.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:7995549740",
@@ -1710,14 +2178,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 200.0,
+  "price_ref": 100,
+  "price_comps": 12,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:3911998331",
@@ -1732,12 +2205,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 81.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10755725456",
@@ -1752,14 +2230,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari jersey",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 15.0,
+  "price_ref": 26,
+  "price_comps": 14,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10731502326",
@@ -1774,12 +2257,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari maillot",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 60.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10699272229",
@@ -1794,12 +2284,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 70.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10597276002",
@@ -1814,14 +2309,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 95.0,
+  "price_ref": 180,
+  "price_comps": 26,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10023382741",
@@ -1836,12 +2336,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari jersey",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10066987890",
@@ -1856,12 +2361,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maillot",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 15.0,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9515166759",
@@ -1876,12 +2386,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2017,
   "keyword": "bari trikot",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 7.0,
+  "price_ref": 26,
+  "price_comps": 14,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9773112718",
@@ -1896,14 +2413,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_issued"
   ],
   "year": 2017,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 69.99
  },
  {
   "id": "vinted:9605435421",
@@ -1918,14 +2437,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 2000,
   "keyword": "bari jersey",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 190,
+  "price_comps": 6,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9452892528",
@@ -1940,12 +2464,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 11.0,
+  "price_ref": 18,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9406864305",
@@ -1960,14 +2491,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2023,
   "keyword": "bari maillot",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 69.99,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:9065337730",
@@ -1982,12 +2518,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2015,
   "keyword": "bari nike",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 29.0,
+  "price_ref": 21,
+  "price_comps": 14,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:8639678879",
@@ -2002,14 +2545,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": null,
   "keyword": "bari trikot",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 20.0,
+  "price_ref": 180,
+  "price_comps": 26,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10757967026",
@@ -2024,14 +2572,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 15.79,
+  "price_ref": 26,
+  "price_comps": 14,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10718827546",
@@ -2046,12 +2599,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 23.4,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10600140995",
@@ -2066,12 +2624,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 35.1,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:10556336596",
@@ -2086,14 +2649,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
-  "year": null,
+  "year": 2020,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 11.7,
+  "price_ref": 79,
+  "price_comps": 16,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10498064133",
@@ -2108,12 +2676,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 7.02,
+  "price_ref": 18,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10167769496",
@@ -2128,14 +2703,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2023,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 64.35,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10377950634",
@@ -2150,12 +2730,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 21.06,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:10367041026",
@@ -2170,12 +2755,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2015,
   "keyword": "bari nike",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 14.04,
+  "price_ref": 26,
+  "price_comps": 14,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10313651782",
@@ -2190,14 +2782,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2023,
   "keyword": "bari kit",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 35.1,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10305747830",
@@ -2212,14 +2809,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 16.38,
+  "price_ref": 79,
+  "price_comps": 16,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10206044244",
@@ -2234,14 +2836,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 17.55,
+  "price_ref": 26,
+  "price_comps": 14,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:10206722602",
@@ -2256,14 +2863,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 17.55,
+  "price_ref": 26,
+  "price_comps": 14,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9962093134",
@@ -2278,12 +2890,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2017,
   "keyword": "bari zeus",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 11.7
  },
  {
   "id": "vinted:9919403514",
@@ -2298,12 +2914,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 11.69,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9897763463",
@@ -2318,12 +2939,14 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 81.9
  },
  {
   "id": "vinted:9871911555",
@@ -2338,12 +2961,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 23.4,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:9608306054",
@@ -2358,14 +2986,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.25,
+  "price_ref": 21,
+  "price_comps": 14,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:9740863323",
@@ -2380,12 +3013,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 18.72,
+  "price_ref": 20,
+  "price_comps": 5,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:9497123238",
@@ -2400,12 +3038,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 31.59,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:9015868366",
@@ -2420,14 +3063,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
-  "year": null,
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 49.14
  },
  {
   "id": "vinted:9482415335",
@@ -2442,14 +3087,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
-  "year": null,
+  "year": 2020,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 35.04,
+  "price_ref": 79,
+  "price_comps": 16,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9256653496",
@@ -2471,7 +3121,11 @@
   ],
   "year": 2025,
   "keyword": "bari kit",
-  "seed": true
+  "seed": true,
+  "price_eur": 5.85,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:9461781197",
@@ -2486,14 +3140,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
   ],
-  "year": null,
+  "year": 2020,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 17.55,
+  "price_ref": 15,
+  "price_comps": 5,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:9182776124",
@@ -2508,12 +3167,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 52.65,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:9001200315",
@@ -2528,14 +3192,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 46.8,
+  "price_ref": 21,
+  "price_comps": 14,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:8778701888",
@@ -2550,14 +3219,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 35.09,
+  "price_ref": 39,
+  "price_comps": 39,
+  "price_rating": "in_linea"
  },
  {
   "id": "vinted:8687659198",
@@ -2572,12 +3246,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 561.6,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "caro"
  },
  {
   "id": "vinted:8278511874",
@@ -2599,7 +3278,8 @@
   ],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 29.24
  },
  {
   "id": "vinted:6553593040",
@@ -2614,12 +3294,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 5.85,
+  "price_ref": 20,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "vinted:8631675695",
@@ -2634,14 +3319,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.24,
+  "price_ref": 21,
+  "price_comps": 14,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-home-bari-lotto-masinga-11-1998-1999-xl-52835",
@@ -2656,14 +3346,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1998,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 349.0,
+  "price_ref": 200,
+  "price_comps": 11,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:t-shirt-allenamento-bari-adidas-1994-1995-52603",
@@ -2678,14 +3373,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1994,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 249.0,
+  "price_ref": 100,
+  "price_comps": 6,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-home-juventus-lotto-tele-del-piero-10-2000-2001-xl",
@@ -2707,7 +3407,11 @@
   ],
   "year": 2000,
   "keyword": "maglia tele",
-  "seed": true
+  "seed": true,
+  "price_eur": 249.0,
+  "price_ref": 140,
+  "price_comps": 6,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-home-bari-lotto-cassano-n18-ml-2000-2001",
@@ -2722,14 +3426,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 2000,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 399.0,
+  "price_ref": 140,
+  "price_comps": 6,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:t-shirt-training-juventus-grigia-lotto-tele-2000-2001",
@@ -2751,7 +3460,11 @@
   ],
   "year": 2000,
   "keyword": "lotto tele",
-  "seed": true
+  "seed": true,
+  "price_eur": 79.0,
+  "price_ref": 40,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-home-bari-adidas-ml-1990-1991",
@@ -2766,14 +3479,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1990,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 299.0,
+  "price_ref": 200,
+  "price_comps": 11,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-away-palermo-kronos-tele-1999-2000",
@@ -2795,7 +3513,11 @@
   ],
   "year": 1999,
   "keyword": "maglia tele",
-  "seed": true
+  "seed": true,
+  "price_eur": 299.0,
+  "price_ref": 200,
+  "price_comps": 11,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:t-shirt-training-juventus-grigia-lotto-tele",
@@ -2817,7 +3539,11 @@
   ],
   "year": 2000,
   "keyword": "lotto tele",
-  "seed": true
+  "seed": true,
+  "price_eur": 79.0,
+  "price_ref": 40,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-home-bari-lotto-cassano-18-autografata-1999-2000",
@@ -2839,7 +3565,11 @@
   ],
   "year": 1999,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 499.0,
+  "price_ref": 200,
+  "price_comps": 11,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-allenamento-bari-1992-1993",
@@ -2854,14 +3584,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1992,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 249.0,
+  "price_ref": 100,
+  "price_comps": 6,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:giacca-bari-adidas-1994-1995",
@@ -2876,14 +3611,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1994,
   "keyword": "adidas bari",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 249.0
  },
  {
   "id": "le7sorelle.it:pantaloncino-bari-errea-n12",
@@ -2898,12 +3635,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.0,
+  "price_ref": 20,
+  "price_comps": 6,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:giaccone-a-s-bari-adidas-anni-90",
@@ -2918,14 +3660,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
-  "year": null,
+  "year": 1990,
   "keyword": "adidas bari",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 249.0
  },
  {
   "id": "le7sorelle.it:maglia-home-bari-adidas-1995-1996-montanari-2",
@@ -2940,14 +3684,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1995,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 790.0,
+  "price_ref": 200,
+  "price_comps": 11,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-home-bari-kappa-2020-2021",
@@ -2962,14 +3711,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2020,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.0,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "in_linea"
  },
  {
   "id": "le7sorelle.it:pantaloncino-home-bari-errea-2009-2010",
@@ -2991,7 +3745,8 @@
   ],
   "year": 2009,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 39.0
  },
  {
   "id": "le7sorelle.it:maglia-home-ml-bari-lotto-1998-1999-giorgetti-6",
@@ -3006,14 +3761,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1998,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 999.0,
+  "price_ref": 200,
+  "price_comps": 11,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:maglia-as-bari-allenamento-anni-80",
@@ -3028,14 +3788,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 249.0,
+  "price_ref": 79,
+  "price_comps": 16,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:polo-bari-kappa-2019-2020",
@@ -3050,14 +3815,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
   ],
   "year": 2019,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 44.99,
+  "price_ref": 15,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "le7sorelle.it:felpa-allenamento-bari-lotto-2000-2001",
@@ -3072,14 +3842,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 2000,
   "keyword": "bari lotto",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 89.0
  },
  {
   "id": "first11shirts.com:2017-18-bari-home-shirt-m-zeus-1",
@@ -3094,14 +3866,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.99,
+  "price_ref": 21,
+  "price_comps": 14,
+  "price_rating": "caro"
  },
  {
   "id": "first11shirts.com:2000-1-ssc-bari-training-shirt-xl-lotto",
@@ -3116,14 +3893,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 2000,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.99,
+  "price_ref": 40,
+  "price_comps": 5,
+  "price_rating": "caro"
  },
  {
   "id": "cultkits.com:2002-03-bari-neqrouz-5-l-s-match-issue-home-shirt-xl-lotto14",
@@ -3138,7 +3920,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_issued",
@@ -3146,7 +3928,9 @@
   ],
   "year": 2002,
   "keyword": "bari shirt",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 339.0
  },
  {
   "id": "classicfootballkit.de:2017-18-bari-zeus-third-shirt-xl-49344095060315",
@@ -3161,14 +3945,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2017,
   "keyword": "bari trikot",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 61.95,
+  "price_ref": 21,
+  "price_comps": 14,
+  "price_rating": "caro"
  },
  {
   "id": "classicfootballkit.de:2002-03-bari-neqrouz-5-l-s-match-issue-home-shirt-xl-lotto-xl-d4pl9ubv-4-ck",
@@ -3183,7 +3972,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_issued",
@@ -3191,7 +3980,9 @@
   ],
   "year": 2002,
   "keyword": "bari lotto",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 305.95
  },
  {
   "id": "footballworldgs.it:141193",
@@ -3206,14 +3997,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1995,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 99.9,
+  "price_ref": 100,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:141175",
@@ -3228,14 +4024,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.9
  },
  {
   "id": "footballworldgs.it:140229",
@@ -3250,14 +4048,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 2004,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 119.9,
+  "price_ref": 190,
+  "price_comps": 6,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:139743",
@@ -3272,14 +4075,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn"
   ],
   "year": 2021,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 149.9
  },
  {
   "id": "footballworldgs.it:139477",
@@ -3294,14 +4099,19 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 2010,
   "keyword": "bari barreto",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 149.9,
+  "price_ref": 180,
+  "price_comps": 26,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:139099",
@@ -3316,7 +4126,7 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -3324,7 +4134,12 @@
   ],
   "year": 2005,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 149.9,
+  "price_ref": 100,
+  "price_comps": 12,
+  "price_rating": "caro"
  },
  {
   "id": "footballworldgs.it:139002",
@@ -3339,14 +4154,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1999,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 149.9,
+  "price_ref": 299,
+  "price_comps": 11,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:138422",
@@ -3361,14 +4181,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_issued"
   ],
   "year": 2022,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 199.9
  },
  {
   "id": "footballworldgs.it:138302",
@@ -3383,14 +4205,19 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1998,
   "keyword": "bari zambrotta",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 199.9,
+  "price_ref": 299,
+  "price_comps": 11,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:138202",
@@ -3405,14 +4232,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
   ],
   "year": 2023,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 99.9,
+  "price_ref": 109,
+  "price_comps": 12,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:136079",
@@ -3427,12 +4259,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2016,
   "keyword": "bari umbro",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 14.9
  },
  {
   "id": "footballworldgs.it:134262",
@@ -3447,14 +4283,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn"
   ],
   "year": 2015,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.9
  },
  {
   "id": "footballworldgs.it:134369",
@@ -3469,12 +4307,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 19.9,
+  "price_ref": 20,
+  "price_comps": 5,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:132806",
@@ -3489,14 +4332,19 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
   ],
   "year": 2023,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 169.9,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "caro"
  },
  {
   "id": "footballworldgs.it:131997",
@@ -3511,14 +4359,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
   ],
   "year": 2015,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 149.9,
+  "price_ref": 100,
+  "price_comps": 12,
+  "price_rating": "caro"
  },
  {
   "id": "footballworldgs.it:129560",
@@ -3533,14 +4386,19 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
   ],
   "year": 1999,
   "keyword": "bari cassano",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 199.9,
+  "price_ref": 299,
+  "price_comps": 11,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:129616",
@@ -3555,7 +4413,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn",
@@ -3563,7 +4421,9 @@
   ],
   "year": 2007,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.9
  },
  {
   "id": "footballworldgs.it:128703",
@@ -3578,14 +4438,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 2014,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 14.9
  },
  {
   "id": "footballworldgs.it:123122",
@@ -3600,14 +4462,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1992,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 99.9,
+  "price_ref": 100,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:121554",
@@ -3622,14 +4489,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 2003,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 34.9,
+  "price_ref": 60,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:118914",
@@ -3644,12 +4516,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 9.9
  },
  {
   "id": "footballworldgs.it:115101",
@@ -3664,12 +4540,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
-  "tags": [],
-  "year": null,
+  "tags": [
+   "moderna"
+  ],
+  "year": 2020,
   "keyword": "bari kappa",
-  "seed": true
+  "seed": true,
+  "year_guess": true,
+  "price_eur": 7.9,
+  "price_ref": 60,
+  "price_comps": 22,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:113431",
@@ -3684,7 +4567,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn",
@@ -3692,7 +4575,9 @@
   ],
   "year": 2010,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 49.9
  },
  {
   "id": "footballworldgs.it:107094",
@@ -3707,14 +4592,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 2014,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.9
  },
  {
   "id": "footballworldgs.it:101327",
@@ -3729,12 +4616,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 19.9,
+  "price_ref": 22,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:99030",
@@ -3749,14 +4641,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 2009,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 39.9,
+  "price_ref": 60,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:98871",
@@ -3771,14 +4668,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
   ],
   "year": 2020,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 179.9,
+  "price_ref": 100,
+  "price_comps": 12,
+  "price_rating": "caro"
  },
  {
   "id": "footballworldgs.it:94714",
@@ -3793,14 +4695,16 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1996,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 29.9
  },
  {
   "id": "footballworldgs.it:91153",
@@ -3815,12 +4719,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 14.9,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:90192",
@@ -3835,14 +4744,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
   ],
   "year": 1997,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 79.9,
+  "price_ref": 100,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:88841",
@@ -3857,14 +4771,19 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
   ],
   "year": 2015,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 79.9,
+  "price_ref": 109,
+  "price_comps": 12,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:83424",
@@ -3879,12 +4798,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 14.9,
+  "price_ref": 23,
+  "price_comps": 29,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:74989",
@@ -3906,7 +4830,11 @@
   ],
   "year": 2016,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 79.9,
+  "price_ref": 21,
+  "price_comps": 14,
+  "price_rating": "caro"
  },
  {
   "id": "footballworldgs.it:74932",
@@ -3928,7 +4856,8 @@
   ],
   "year": 2016,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 19.9
  },
  {
   "id": "footballworldgs.it:64869",
@@ -3950,7 +4879,8 @@
   ],
   "year": 2014,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 49.9
  },
  {
   "id": "footballworldgs.it:63990",
@@ -3972,7 +4902,11 @@
   ],
   "year": 2008,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 9.9,
+  "price_ref": 60,
+  "price_comps": 5,
+  "price_rating": "buono"
  },
  {
   "id": "footballworldgs.it:62314",
@@ -3992,7 +4926,11 @@
   "tags": [],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 19.9,
+  "price_ref": 22,
+  "price_comps": 6,
+  "price_rating": "in_linea"
  },
  {
   "id": "footballworldgs.it:59866",
@@ -4014,7 +4952,8 @@
   ],
   "year": 2005,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 14.9
  },
  {
   "id": "footballworldgs.it:59832",
@@ -4036,7 +4975,8 @@
   ],
   "year": 1997,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 29.9
  },
  {
   "id": "footballworldgs.it:45913",
@@ -4058,7 +4998,11 @@
   ],
   "year": 2018,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 149.9,
+  "price_ref": 100,
+  "price_comps": 12,
+  "price_rating": "caro"
  },
  {
   "id": "footballworldgs.it:45406",
@@ -4080,7 +5024,8 @@
   ],
   "year": 1997,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 79.9
  },
  {
   "id": "footballworldgs.it:45399",
@@ -4102,7 +5047,8 @@
   ],
   "year": 1997,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 79.9
  },
  {
   "id": "sscbari:106",
@@ -4117,14 +5063,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:115",
@@ -4139,14 +5088,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 49.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:156",
@@ -4161,14 +5113,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 81.6,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:160",
@@ -4183,14 +5138,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 72.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:175",
@@ -4205,14 +5163,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 73.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:189",
@@ -4227,14 +5188,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:198",
@@ -4249,14 +5213,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:107",
@@ -4271,14 +5238,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 49.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:116",
@@ -4293,14 +5263,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:153",
@@ -4315,14 +5288,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:161",
@@ -4337,14 +5313,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 96.5,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:172",
@@ -4359,14 +5338,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 54.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:190",
@@ -4381,14 +5363,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:200",
@@ -4403,14 +5388,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 49.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:108",
@@ -4425,14 +5413,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:154",
@@ -4447,14 +5438,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 51.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:162",
@@ -4469,14 +5463,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.5,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:173",
@@ -4491,14 +5488,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 54.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:193",
@@ -4513,14 +5513,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:68",
@@ -4535,14 +5538,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:114",
@@ -4557,14 +5563,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 59.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:155",
@@ -4579,14 +5588,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 51.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:159",
@@ -4601,14 +5613,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 72.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:163",
@@ -4623,14 +5638,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [
    "store"
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 40.5,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:174",
@@ -4645,14 +5663,17 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": 73.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:5",
@@ -4674,7 +5695,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 51.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:6",
@@ -4696,7 +5719,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 58.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:7",
@@ -4718,7 +5743,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 129.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:10",
@@ -4740,7 +5767,9 @@
   ],
   "year": 2023,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 79.5,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:51",
@@ -4762,7 +5791,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": null,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:52",
@@ -4784,7 +5815,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": null,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:53",
@@ -4806,7 +5839,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:56",
@@ -4828,7 +5863,9 @@
   ],
   "year": 2024,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 66.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:57",
@@ -4850,7 +5887,9 @@
   ],
   "year": 2024,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 66.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:58",
@@ -4872,7 +5911,9 @@
   ],
   "year": 2024,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:59",
@@ -4894,7 +5935,9 @@
   ],
   "year": 2024,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 79.5,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:60",
@@ -4916,7 +5959,9 @@
   ],
   "year": 2023,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 77.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:61",
@@ -4938,7 +5983,9 @@
   ],
   "year": 2023,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:62",
@@ -4960,7 +6007,9 @@
   ],
   "year": 2023,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 84.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:63",
@@ -4982,7 +6031,9 @@
   ],
   "year": 2024,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:64",
@@ -5004,7 +6055,9 @@
   ],
   "year": 2024,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 129.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:67",
@@ -5026,7 +6079,9 @@
   ],
   "year": 2023,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 77.99,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:71",
@@ -5048,7 +6103,9 @@
   ],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 58.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:72",
@@ -5070,7 +6127,9 @@
   ],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 64.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:122",
@@ -5092,7 +6151,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:128",
@@ -5114,7 +6175,9 @@
   ],
   "year": 2024,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:133",
@@ -5136,7 +6199,9 @@
   ],
   "year": null,
   "keyword": "bari errea",
-  "seed": true
+  "seed": true,
+  "price_eur": 66.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:134",
@@ -5158,7 +6223,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:135",
@@ -5180,7 +6247,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:137",
@@ -5202,7 +6271,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:138",
@@ -5224,7 +6295,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 129.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:139",
@@ -5246,7 +6319,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 84.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:143",
@@ -5268,7 +6343,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:144",
@@ -5290,7 +6367,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 84.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:145",
@@ -5312,7 +6391,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 84.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:146",
@@ -5334,7 +6415,9 @@
   ],
   "year": null,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": null,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:150",
@@ -5356,7 +6439,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 81.6,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:165",
@@ -5378,7 +6463,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:176",
@@ -5400,7 +6487,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:177",
@@ -5422,7 +6511,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:178",
@@ -5444,7 +6535,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:179",
@@ -5466,7 +6559,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:180",
@@ -5488,7 +6583,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:181",
@@ -5510,7 +6607,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:182",
@@ -5532,7 +6631,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:183",
@@ -5554,7 +6655,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:185",
@@ -5576,7 +6679,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:186",
@@ -5598,7 +6703,9 @@
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:187",
@@ -5620,7 +6727,9 @@
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:191",
@@ -5642,7 +6751,9 @@
   ],
   "year": 2025,
   "keyword": null,
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:194",
@@ -5664,7 +6775,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 40.0,
+  "price_rating": "listino"
  },
  {
   "id": "sscbari:195",
@@ -5686,7 +6799,9 @@
   ],
   "year": 2025,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "price_eur": 85.0,
+  "price_rating": "listino"
  },
  {
   "id": "memorabid:141311",
@@ -5701,11 +6816,13 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-11T17:58:07+00:00",
+  "last_seen": "2026-11-11T18:49:48+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "keyword": "bari maglia",
-  "seed": true
+  "seed": true,
+  "year_guess": false,
+  "price_eur": null
  }
 ]
