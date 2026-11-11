@@ -36,12 +36,26 @@ def fmt_price(item) -> str:
     return f"{p} {sym}" + (" (asta)" if item.get("auction") else "")
 
 
+RATING_LABEL = {"buono": "🟢 Buon prezzo", "in_linea": "🟡 In linea con la media",
+                "caro": "🔴 Caro rispetto alla media"}
+
+
+def price_verdict(item) -> str:
+    r = item.get("price_rating")
+    if r not in RATING_LABEL:
+        return ""
+    ref = f"{item['price_ref']:,}".replace(",", ".")
+    return f"{RATING_LABEL[r]} (simili: ~{ref} €, {item['price_comps']} annunci)"
+
+
 def caption(item) -> str:
     tags = " · ".join(TAG_LABEL[t] for t in item.get("tags", []) if t in TAG_LABEL)
+    verdict = price_verdict(item)
     lines = [
         f"<b>{html.escape(item['title'])}</b>",
         f"{SECTION_LABEL.get(item['section'], '')}" + (f" · {tags}" if tags else ""),
         f"💶 {fmt_price(item)}",
+        *([verdict] if verdict else []),
         f"🛒 {html.escape(item['source'])}" + (f" · {html.escape(item['location'])}" if item.get("location") else ""),
         f'<a href="{html.escape(item["url"], quote=True)}">Apri l\'annuncio</a>',
     ]

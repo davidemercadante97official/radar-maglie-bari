@@ -20,7 +20,7 @@ CLUB_PATTERNS = [
 # Sponsor di maglia legati solo (o quasi) al Bari: valgono come "Bari"
 # se nel titolo c'e' anche una parola capo (maglia/shirt/...).
 CLUB_SPONSORS = [
-    r"\bwuber\b", r"\bsud factoring\b", r"\bsud leasing\b",
+    r"\bwuber\b", r"\bsud ?factoring\b", r"\bsud ?leasing\b",
     r"\bcassa di puglia\b", r"\bgaudianello\b", r"\bradionorba\b",
     r"\bsuissegas\b", r"\bgio ?bi\b", r"\bpasta ambra\b",
     r"\bpuglia promozione\b", r"\bsorgesana\b",
@@ -97,6 +97,8 @@ EXCLUDE_WORDS = [
     r"\bdress\b", r"\bpeplum\b", r"\bblouse\b", r"\bskirt\b", r"\bgonna\b",
     r"\bvestito\b", r"\babito\b", r"\bcamicia\b", r"\bcamicetta\b",
     r"\bjeans?\b", r"\bdenim\b", r"\bpaisley\b", r"\bkleid\b", r"\brobe\b",
+    # maglie di fantasia, non ufficiali
+    r"\bconcept\b", r"\bfan ?made\b", r"\bfantasy\b",
     # gadget/abbigliamento non da calcio
     r"\bcostume\b", r"\bpigiama\b", r"\bbody\b", r"\bbavaglin[oi]\b",
     r"\btutina\b",
@@ -130,6 +132,20 @@ TAG_RULES = {
                 r"\banni 2000\b", r"\bold school\b", r"\bclassic\b"],
 }
 VINTAGE_MAX_YEAR = 2014   # stagioni fino a questa = vintage
+
+# Se il titolo non ha l'anno, lo stimiamo da sponsor tecnico o di maglia
+# (date dalla lista keyword). Erreà e' escluso: 2005-15 e anche dal 2024.
+BRAND_YEAR = {
+    r"\bpouchain\b": 1980, r"\bpuma\b": 1979, r"\badidas\b": 1990,
+    r"\blotto\b": 2000, r"\bnike\b": 2015, r"\bumbro\b": 2016,
+    r"\bzeus\b": 2017, r"\bkappa\b": 2020,
+    r"\bcassa di puglia\b": 1985, r"\bsud ?leasing\b": 1988,
+    r"\bsud ?factoring\b": 1991, r"\bwuber\b": 1993, r"\bcepu\b": 1996,
+    r"\bgio ?bi\b": 1997, r"\btele\b": 1999, r"\bpasta ambra\b": 2004,
+    r"\bgaudianello\b": 2007, r"\bradionorba\b": 2010,
+    r"\bfashion district\b": 2012, r"\bsuissegas\b": 2014,
+    r"\bbetaland\b": 2016, r"\bsorgesana\b": 2019, r"\bbetsson\b": 2025,
+}
 MODERN_HINTS = [r"\bnuova\b", r"\bnew\b", r"\bbnwt\b", r"\bcon cartellino\b",
                 r"\bwith tags\b", r"\bneu\b", r"\bnueva\b"]
 

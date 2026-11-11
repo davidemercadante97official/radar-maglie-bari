@@ -41,6 +41,7 @@ DROP = [
     "Vintage A.J. Bari New York navy and beige striped shirt dress.",
     "Jean shirt di bari size S",
     "Maglia calcio vintage Jersey Trikot Joma Monopoli Bari lega pro match worn away",
+    "2025/26 Bari concept kit",
 ]
 
 

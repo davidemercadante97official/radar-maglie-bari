@@ -14,7 +14,7 @@ import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import config, notify
+from . import config, notify, pricing
 from .matching import classify
 from .net import session
 from .sources import auctions, marketplaces, shops
@@ -144,6 +144,7 @@ def run(only=None, dry_run=False):
         new_items.append(item)
 
     merged = sorted(by_id.values(), key=lambda x: x["first_seen"], reverse=True)[: config.MAX_STORED]
+    pricing.rate_all(merged)   # giudizio prezzo: buono / in linea / caro
     print(f"\nNuovi annunci: {len(new_items)}  |  in archivio: {len(merged)}")
 
     sent = 0

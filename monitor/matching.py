@@ -38,6 +38,8 @@ TSHIRT = re.compile(config.TSHIRT_PATTERN)
 TSHIRT_OK = re.compile(config.TSHIRT_OK)
 TAGS = {k: _compile(v) for k, v in config.TAG_RULES.items()}
 MODERN = _compile(config.MODERN_HINTS)
+BRAND_YEAR = [(re.compile(p), y) for p, y in config.BRAND_YEAR.items()]
+TECH_COUNT = 8   # le prime 8 voci di BRAND_YEAR sono sponsor tecnici
 YEAR = re.compile(r"\b(19[5-9]\d|20[0-3]\d)(?: ?(?:\d{2}|\d{4}))?\b")
 SHORT_SEASON = re.compile(r"\b([5-9]\d|[0-3]\d) (\d{2})\b")   # "92 93", "21 22"
 
@@ -111,6 +113,13 @@ def classify(title: str, source_kind: str = "") -> dict | None:
 
     tags = [name for name, pats in TAGS.items() if _any(pats, t)]
     year = season_year(t)
+    year_guess = False
+    if not year:
+        # sponsor di maglia prima (piu' precisi), poi sponsor tecnico
+        sponsor = [y for p, y in BRAND_YEAR[TECH_COUNT:] if p.search(t)]
+        tech = [y for p, y in BRAND_YEAR[:TECH_COUNT] if p.search(t)]
+        if sponsor or tech:
+            year, year_guess = (sponsor or tech)[0], True
     if "vintage" not in tags and year and year <= config.VINTAGE_MAX_YEAR:
         tags.append("vintage")
     if source_kind == "store":
@@ -118,4 +127,5 @@ def classify(title: str, source_kind: str = "") -> dict | None:
     if not any(x in tags for x in ("vintage", "match_worn", "match_issued", "store")):
         if (year and year > config.VINTAGE_MAX_YEAR) or _any(MODERN, t):
             tags.append("moderna")
-    return {"section": section, "tags": tags, "year": year, "keyword": matched_kw}
+    return {"section": section, "tags": tags, "year": year,
+            "year_guess": year_guess, "keyword": matched_kw}
