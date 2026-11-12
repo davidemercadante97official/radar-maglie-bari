@@ -163,6 +163,9 @@ def wallapop(ctx):
 
 # --- eBay Browse API ------------------------------------------------------------
 # Servono EBAY_CLIENT_ID e EBAY_CLIENT_SECRET (account developer.ebay.com).
+EBAY_DEEP = 1000   # risultati letti per la ricerca "a rotazione" di ogni giro
+
+
 def ebay(ctx):
     cid, secret = os.getenv("EBAY_CLIENT_ID"), os.getenv("EBAY_CLIENT_SECRET")
     if not (cid and secret):
@@ -178,17 +181,30 @@ def ebay(ctx):
                   "scope": "https://api.ebay.com/oauth/api_scope"}, timeout=25)
         tok.raise_for_status()
         token = tok.json()["access_token"]
-        for market in config.EBAY_MARKETPLACES:
-            for q in config.EBAY_QUERIES:
+        # ogni giro: i 200 annunci piu' recenti di ogni ricerca; in piu' una
+        # ricerca a rotazione viene letta fino a EBAY_DEEP risultati (annunci
+        # vecchi, senza notifica). Circa 22 chiamate a giro, ~2.100 al giorno:
+        # sotto il limite gratuito di 5.000.
+        searches = [(m, q) for m in config.EBAY_MARKETPLACES for q in config.EBAY_QUERIES]
+        st = ctx.state.setdefault("ebay", {})
+        first = not st.get("started")
+        i = st.get("cursor", 0) % len(searches)
+        st["cursor"] = i + 1
+        for n, (market, q) in enumerate(searches):
+            offsets = range(0, EBAY_DEEP, 200) if n == i else [0]
+            for offset in offsets:
                 r = ctx.http.get(
                     "https://api.ebay.com/buy/browse/v1/item_summary/search",
-                    params={"q": q, "sort": "newlyListed", "limit": 200},
+                    params={"q": q, "sort": "newlyListed", "limit": 200, "offset": offset},
                     headers={"Authorization": f"Bearer {token}",
                              "X-EBAY-C-MARKETPLACE-ID": market}, timeout=25)
                 if r.status_code == 429:
                     raise RuntimeError("limite giornaliero eBay raggiunto")
                 r.raise_for_status()
-                for it in r.json().get("itemSummaries", []):
+                page = r.json().get("itemSummaries", [])
+                if not page:
+                    break
+                for it in page:
                     price = it.get("price") or it.get("currentBidPrice") or {}
                     legacy = it.get("legacyItemId") or it.get("itemId", "")
                     out.append({
@@ -199,9 +215,12 @@ def ebay(ctx):
                         "source": "ebay." + market.split("_")[1].lower().replace("gb", "co.uk").replace("us", "com"),
                         "auction": "AUCTION" in (it.get("buyingOptions") or []),
                         "location": (it.get("itemLocation") or {}).get("country", ""),
+                        # primo giro eBay o pagine successive: archivio, niente notifiche
+                        "backfill": first or offset > 0,
                     })
                 time.sleep(0.3)
         ctx.ok("ebay")
+        st["started"] = True
     except Exception as e:
         ctx.fail("ebay", e)
     return out
