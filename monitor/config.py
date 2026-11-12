@@ -86,7 +86,8 @@ EXCLUDE_WORDS = [
     r"\bbook\b", r"\bdvd\b", r"\bvhs\b", r"\bcd\b",
     r"\bminiatura\b", r"\bmini ?kit\b", r"\bstatuett[ae]\b", r"\bfunko\b",
     r"\blego\b", r"\bsubbuteo\b", r"\bpupazzo\b", r"\bpeluche\b",
-    r"\bmaglione di natale\b",
+    r"\bmaglione di natale\b", r"\bscaldacollo\b", r"\bcartella\b", r"\bbarattolo\b",
+    r"\blatta\b",
     # altri sport e squadre di Bari che non sono il calcio
     r"\bbasket\b", r"\bpallacanestro\b", r"\bnba\b", r"\bvolley\b",
     r"\bpallavolo\b", r"\brugby\b", r"\bfutsal\b", r"\bcalcio a 5\b",
