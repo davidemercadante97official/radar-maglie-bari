@@ -164,6 +164,7 @@ def wallapop(ctx):
 # --- eBay Browse API ------------------------------------------------------------
 # Servono EBAY_CLIENT_ID e EBAY_CLIENT_SECRET (account developer.ebay.com).
 EBAY_DEEP = 1000   # risultati letti per la ricerca "a rotazione" di ogni giro
+EBAY_EVERY_MIN = 30
 
 
 def ebay(ctx):
@@ -171,6 +172,14 @@ def ebay(ctx):
     if not (cid and secret):
         ctx.skip("ebay", "mancano EBAY_CLIENT_ID / EBAY_CLIENT_SECRET")
         return []
+    # le chiavi sono condivise con un'altra app (Radar Cardex): eBay si legge
+    # al massimo ogni EBAY_EVERY_MIN minuti, ~1.000 chiamate al giorno su 5.000
+    st = ctx.state.setdefault("ebay", {})
+    last = st.get("last_call")
+    if last and time.time() - last < EBAY_EVERY_MIN * 60 - 120:
+        ctx.ok("ebay", f"letto meno di {EBAY_EVERY_MIN} minuti fa")
+        return []
+    st["last_call"] = time.time()
     out = []
     try:
         tok = ctx.http.post(
@@ -183,10 +192,8 @@ def ebay(ctx):
         token = tok.json()["access_token"]
         # ogni giro: i 200 annunci piu' recenti di ogni ricerca; in piu' una
         # ricerca a rotazione viene letta fino a EBAY_DEEP risultati (annunci
-        # vecchi, senza notifica). Circa 22 chiamate a giro, ~2.100 al giorno:
-        # sotto il limite gratuito di 5.000.
+        # vecchi, senza notifica). Circa 22 chiamate a giro.
         searches = [(m, q) for m in config.EBAY_MARKETPLACES for q in config.EBAY_QUERIES]
-        st = ctx.state.setdefault("ebay", {})
         first = not st.get("started")
         i = st.get("cursor", 0) % len(searches)
         st["cursor"] = i + 1
