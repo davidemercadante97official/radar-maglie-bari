@@ -1,5 +1,29 @@
 [
  {
+  "id": "vinted:10775477850",
+  "title": "Paglia Protti Bari 93 limited edition",
+  "url": "https://www.vinted.it/items/10775477850-paglia-protti-bari-93-limited-edition",
+  "price": 49.0,
+  "currency": "EUR",
+  "image": "https://images1.vinted.net/t/06_00a28_SWXgXxc7ngnaTNfFR28queqD/310x430/4750b882.webp?s=7e4f39ec4822dbde2b5ee705aeb82c3bbb067f3c",
+  "source": "vinted.it",
+  "kind": "marketplace",
+  "auction": false,
+  "location": "",
+  "available": true,
+  "first_seen": "2026-11-12T10:32:54+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
+  "section": "maglie",
+  "tags": [],
+  "year": null,
+  "year_guess": false,
+  "keyword": "bari protti",
+  "price_eur": 49.0,
+  "price_ref": 23,
+  "price_comps": 31,
+  "price_rating": "caro"
+ },
+ {
   "id": "vinted:10774782170",
   "title": "Maglia promozione Bari serie A",
   "url": "https://www.vinted.it/items/10774782170-maglia-promozione-bari-serie-a",
@@ -12,7 +36,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-12T09:29:25+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -20,7 +44,7 @@
   "keyword": "bari maglia",
   "price_eur": 25.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -36,15 +60,15 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-12T01:48:20+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
   "year_guess": false,
   "keyword": "bari maglia",
   "price_eur": 15.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -109,7 +133,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T18:49:48+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -213,7 +237,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -240,7 +264,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -267,7 +291,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -294,7 +318,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -302,8 +326,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 8.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -319,7 +343,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -328,7 +352,7 @@
   "year_guess": false,
   "price_eur": 80.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -344,7 +368,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -371,7 +395,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -380,7 +404,7 @@
   "year_guess": false,
   "price_eur": 30.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -396,7 +420,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -420,7 +444,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -448,7 +472,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -475,7 +499,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -499,7 +523,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -524,7 +548,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -546,7 +570,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -573,7 +597,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -598,7 +622,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -622,7 +646,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -649,7 +673,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -674,7 +698,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -701,7 +725,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -728,7 +752,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -755,7 +779,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -764,7 +788,7 @@
   "year_guess": false,
   "price_eur": 150.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -780,7 +804,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -807,7 +831,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -834,7 +858,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -861,7 +885,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -885,7 +909,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -939,7 +963,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -966,7 +990,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -988,7 +1012,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -1015,7 +1039,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1023,8 +1047,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 12.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -1040,7 +1064,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1049,7 +1073,7 @@
   "year_guess": false,
   "price_eur": 80.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -1065,7 +1089,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1092,7 +1116,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1119,7 +1143,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1146,7 +1170,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1168,7 +1192,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1177,7 +1201,7 @@
   "year_guess": false,
   "price_eur": 180.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -1193,7 +1217,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1201,8 +1225,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 12.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -1218,7 +1242,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1245,7 +1269,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1272,7 +1296,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1297,7 +1321,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -1321,7 +1345,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1343,7 +1367,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1368,7 +1392,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1395,7 +1419,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1404,7 +1428,7 @@
   "year_guess": false,
   "price_eur": 30.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -1420,7 +1444,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1445,7 +1469,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1454,7 +1478,7 @@
   "year_guess": false,
   "price_eur": 45.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -1470,7 +1494,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1495,7 +1519,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1503,8 +1527,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 15.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -1520,7 +1544,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1545,7 +1569,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -1569,7 +1593,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1596,7 +1620,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1623,7 +1647,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1648,7 +1672,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -1675,7 +1699,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -1699,7 +1723,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -1726,7 +1750,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1734,8 +1758,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 15.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -1751,7 +1775,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -1759,8 +1783,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 20.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -1776,7 +1800,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1801,7 +1825,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
@@ -1828,7 +1852,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -1855,7 +1879,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -1877,7 +1901,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -1904,7 +1928,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -1952,7 +1976,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T08:16:57+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -2070,7 +2094,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -2097,7 +2121,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -2125,7 +2149,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
@@ -2152,7 +2176,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2160,8 +2184,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 5.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -2177,7 +2201,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -2204,7 +2228,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -2231,7 +2255,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2240,7 +2264,7 @@
   "year_guess": false,
   "price_eur": 80.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -2256,7 +2280,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
@@ -2283,7 +2307,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2292,7 +2316,7 @@
   "year_guess": false,
   "price_eur": 81.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -2308,7 +2332,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2335,7 +2359,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2362,7 +2386,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2371,7 +2395,7 @@
   "year_guess": false,
   "price_eur": 70.0,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -2387,7 +2411,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -2414,7 +2438,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2422,8 +2446,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 20.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -2439,7 +2463,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2447,8 +2471,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 15.0,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -2464,7 +2488,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2491,7 +2515,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_issued"
@@ -2515,7 +2539,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -2542,7 +2566,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -2569,7 +2593,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2596,7 +2620,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2623,7 +2647,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -2650,7 +2674,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2677,7 +2701,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2685,8 +2709,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 23.4,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -2702,7 +2726,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2711,7 +2735,7 @@
   "year_guess": false,
   "price_eur": 35.1,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -2727,7 +2751,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -2754,7 +2778,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -2781,7 +2805,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2808,7 +2832,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -2816,8 +2840,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 21.06,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -2833,7 +2857,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2860,7 +2884,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2887,7 +2911,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -2914,7 +2938,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2941,7 +2965,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -2968,7 +2992,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -2992,7 +3016,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -3000,8 +3024,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 11.69,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -3017,7 +3041,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -3039,7 +3063,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -3047,8 +3071,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 23.4,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "in_linea"
  },
  {
@@ -3064,7 +3088,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -3091,7 +3115,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -3116,7 +3140,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -3125,7 +3149,7 @@
   "year_guess": false,
   "price_eur": 31.59,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -3141,7 +3165,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3165,7 +3189,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3218,7 +3242,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -3245,7 +3269,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -3254,7 +3278,7 @@
   "year_guess": false,
   "price_eur": 52.65,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -3270,7 +3294,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -3297,7 +3321,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -3324,7 +3348,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -3333,7 +3357,7 @@
   "year_guess": false,
   "price_eur": 561.6,
   "price_ref": 23,
-  "price_comps": 30,
+  "price_comps": 31,
   "price_rating": "caro"
  },
  {
@@ -3398,7 +3422,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -3425,7 +3449,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -3452,7 +3476,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3505,7 +3529,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -3558,7 +3582,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -3663,7 +3687,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3690,7 +3714,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3714,7 +3738,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -3739,7 +3763,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3763,7 +3787,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -3790,7 +3814,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -3840,7 +3864,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -3867,7 +3891,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3894,7 +3918,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -3921,7 +3945,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3945,7 +3969,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -3972,7 +3996,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -3999,7 +4023,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_issued",
@@ -4025,7 +4049,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -4052,7 +4076,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_issued",
@@ -4077,7 +4101,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4104,7 +4128,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn"
@@ -4128,7 +4152,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -4155,7 +4179,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn"
@@ -4179,7 +4203,7 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -4206,7 +4230,7 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn",
@@ -4234,7 +4258,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -4261,7 +4285,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_issued"
@@ -4285,7 +4309,7 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -4312,7 +4336,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
@@ -4339,7 +4363,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -4363,7 +4387,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn"
@@ -4387,7 +4411,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -4412,7 +4436,7 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -4439,7 +4463,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
@@ -4466,7 +4490,7 @@
   "location": "",
   "available": false,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "vintage"
@@ -4493,7 +4517,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn",
@@ -4518,7 +4542,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4542,7 +4566,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4569,7 +4593,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4596,7 +4620,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "moderna"
@@ -4620,7 +4644,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "moderna"
@@ -4647,7 +4671,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "match_worn",
@@ -4672,7 +4696,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4696,7 +4720,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [],
   "year": null,
@@ -4721,7 +4745,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4748,7 +4772,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
@@ -4775,7 +4799,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4799,7 +4823,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -4807,8 +4831,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 14.9,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -4824,7 +4848,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "vintage"
@@ -4851,7 +4875,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "match_worn"
@@ -4878,7 +4902,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
@@ -4886,8 +4910,8 @@
   "seed": true,
   "year_guess": false,
   "price_eur": 14.9,
-  "price_ref": 24,
-  "price_comps": 30,
+  "price_ref": 25,
+  "price_comps": 31,
   "price_rating": "buono"
  },
  {
@@ -5143,7 +5167,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5168,7 +5192,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5193,7 +5217,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5218,7 +5242,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5243,7 +5267,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5268,7 +5292,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5293,7 +5317,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5318,7 +5342,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5343,7 +5367,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5368,7 +5392,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5393,7 +5417,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5418,7 +5442,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5443,7 +5467,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5468,7 +5492,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5493,7 +5517,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5518,7 +5542,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5543,7 +5567,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "store"
@@ -5568,7 +5592,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5593,7 +5617,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5618,7 +5642,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5643,7 +5667,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5668,7 +5692,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5693,7 +5717,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -5718,7 +5742,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [
    "store"
@@ -5743,7 +5767,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "abbigliamento",
   "tags": [
    "store"
@@ -6896,7 +6920,7 @@
   "location": "",
   "available": true,
   "first_seen": "2026-11-11T17:58:07+00:00",
-  "last_seen": "2026-11-12T09:29:25+00:00",
+  "last_seen": "2026-11-12T10:32:54+00:00",
   "section": "maglie",
   "tags": [],
   "year": null,
