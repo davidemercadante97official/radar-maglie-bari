@@ -44,17 +44,12 @@ def price_verdict(item) -> str:
     r = item.get("price_rating")
     what = html.escape(item.get("price_match") or "")
     ref = f"{item['price_ref']:,}".replace(",", ".") if item.get("price_ref") else ""
-    if r in RATING_LABEL:
+    if r in RATING_LABEL and item.get("price_basis") == "specifico":
         return (f"{RATING_LABEL[r]}: ~{ref} € la mediana di {item['price_comps']} "
                 f"annunci specificamente simili ({what})")
-    if r == "pochi_simili" and item.get("price_comps"):
-        n = item["price_comps"]
-        return (f"ℹ️ Solo {n} {'annuncio simile' if n == 1 else 'annunci simili'} "
-                f"({what}): ~{ref} €, troppo pochi per un giudizio")
-    if r == "pochi_simili":
-        return f"ℹ️ Nessun confronto specifico ({what})"
-    if r == "generico":
-        return "ℹ️ Titolo senza giocatore né stagione: nessun confronto specifico"
+    if r in RATING_LABEL:
+        return (f"{RATING_LABEL[r]} ⚠️ giudizio basato su pochi annunci "
+                f"({what}: ~{ref} €)")
     return ""
 
 

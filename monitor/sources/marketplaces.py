@@ -59,43 +59,90 @@ VINTED_CARD = re.compile(
     r'data-testid="product-item-id-(\d+)--image--img"', re.S)
 
 
-def vinted(ctx):
+VINTED_MAX_PAGES = 10   # Vinted non mostra oltre 10 pagine (960 annunci)
+VINTED_DEEP_PER_RUN = 2
+
+
+def _vinted_page(ctx, domain, q, page):
+    r = get(ctx.http, f"https://{domain}/catalog",
+            params={"search_text": q, "order": "newest_first", "page": page})
     out = []
-    for domain, queries in config.VINTED.items():
+    for img, alt, iid in VINTED_CARD.findall(r.text):
+        alt = html.unescape(alt)
+        # alt = "Titolo, Brand: X, Condizioni: Y, Taglia: M, 28.00 €, ..."
+        title = re.split(r",\s*[A-ZÉÄÖÜ][\wäöüéèà ]{1,20}:\s", alt)[0]
+        pm = re.search(r"(\d+[.,]\d{2})\s*(€|£|EUR)", alt)
+        slug = re.search(r'href="(/items/%s-[^"?]*)' % iid, r.text)
+        out.append({
+            "native_id": f"vinted:{iid}", "title": title,
+            "url": f"https://{domain}" + (slug.group(1) if slug else f"/items/{iid}"),
+            "price": to_float(pm.group(1)) if pm else None,
+            "currency": "GBP" if domain.endswith(".co.uk") else "EUR",
+            "image": img, "source": domain.replace("www.", ""),
+        })
+    return out
+
+
+def vinted(ctx):
+    """Ogni giro legge la prima pagina (i piu' recenti) di ogni ricerca.
+    In piu' scava nelle pagine 2-10: la prima volta per tutte le ricerche,
+    poi a rotazione una ricerca per giro, cosi' in poche ore ripassa tutto
+    l'archivio di Vinted senza farsi bloccare. Gli annunci trovati scavando
+    sono vecchi: finiscono in dashboard senza notifica."""
+    out = []
+    searches = [(d, q) for d, qs in config.VINTED.items() for q in qs]
+    st = ctx.state.setdefault("vinted", {})
+    # leggere tutte le pagine di tutte le ricerche in un giro sola richiede
+    # troppo tempo: a ogni giro si scava a fondo in DEEP_PER_RUN ricerche,
+    # a rotazione (18+ ricerche -> tutto ripassato in circa 2-3 ore).
+    i = st.get("cursor", 0) % len(searches)
+    deep = [searches[(i + k) % len(searches)] for k in range(VINTED_DEEP_PER_RUN)]
+    st["cursor"] = (i + VINTED_DEEP_PER_RUN) % len(searches)
+    for domain in config.VINTED:
+        name = domain.replace("www.", "")
         try:
-            for q in queries:
-                r = get(ctx.http, f"https://{domain}/catalog",
-                        params={"search_text": q, "order": "newest_first"})
-                for img, alt, iid in VINTED_CARD.findall(r.text):
-                    alt = html.unescape(alt)
-                    # alt = "Titolo, Brand: X, Condizioni: Y, Taglia: M, 28.00 €, ..."
-                    # taglia via ", Brand: / Marke: / Zustand: / Taille: ..."
-                    title = re.split(r",\s*[A-ZÉÄÖÜ][\wäöüéèà ]{1,20}:\s", alt)[0]
-                    pm = re.search(r"(\d+[.,]\d{2})\s*(€|£|EUR)", alt)
-                    slug = re.search(r'href="(/items/%s-[^"?]*)' % iid, r.text)
-                    out.append({
-                        "native_id": f"vinted:{iid}", "title": title,
-                        "url": f"https://{domain}" + (slug.group(1) if slug else f"/items/{iid}"),
-                        "price": to_float(pm.group(1)) if pm else None,
-                        "currency": "GBP" if domain.endswith(".co.uk") else "EUR",
-                        "image": img, "source": domain.replace("www.", ""),
-                    })
-            ctx.ok(domain.replace("www.", ""))
+            for d, q in searches:
+                if d != domain:
+                    continue
+                out += _vinted_page(ctx, domain, q, 1)
+                if (d, q) not in deep:
+                    continue
+                for page in range(2, VINTED_MAX_PAGES + 1):
+                    got = _vinted_page(ctx, domain, q, page)
+                    if not got:
+                        break
+                    for x in got:
+                        x["backfill"] = True
+                    out += got
+            ctx.ok(name)
         except Exception as e:
-            ctx.fail(domain.replace("www.", ""), e)
+            ctx.fail(name, e)
     return out
 
 
 # --- Wallapop (Spagna/Italia) ---------------------------------------------------
 def wallapop(ctx):
     out = []
+    # Wallapop restituisce i risultati a pezzi: la prima risposta e' spesso
+    # vuota e il resto arriva seguendo "next_page". La prima volta scaviamo a
+    # fondo (annunci vecchi, senza notifica), poi seguiamo le prime pagine.
+    st = ctx.state.setdefault("wallapop", {})
+    first = not st.get("deep_done")
+    pages = 25 if first else 10
     try:
         for kw, lat, lon in config.WALLAPOP:
-            r = get(ctx.http, "https://api.wallapop.com/api/v3/search",
-                    params={"keywords": kw, "order_by": "newest", "source": "search_box",
-                            "latitude": lat, "longitude": lon},
-                    headers={"X-DeviceOS": "0", "Accept": "application/json"})
-            items = r.json().get("data", {}).get("section", {}).get("payload", {}).get("items", [])
+            params = {"keywords": kw, "order_by": "newest", "source": "search_box",
+                      "latitude": lat, "longitude": lon}
+            items = []
+            for _ in range(pages):
+                r = get(ctx.http, "https://api.wallapop.com/api/v3/search", params=params,
+                        headers={"X-DeviceOS": "0", "Accept": "application/json"})
+                j = r.json()
+                items += j.get("data", {}).get("section", {}).get("payload", {}).get("items", [])
+                nxt = (j.get("meta") or {}).get("next_page")
+                if not nxt:
+                    break
+                params = {"next_page": nxt}
             for it in items:
                 imgs = it.get("images") or [{}]
                 price = it.get("price") or {}
@@ -105,9 +152,10 @@ def wallapop(ctx):
                     "url": f"https://{host}/item/{it.get('web_slug')}",
                     "price": to_float(price.get("amount")), "currency": price.get("currency", "EUR"),
                     "image": (imgs[0].get("urls") or {}).get("medium", ""),
-                    "source": "wallapop",
+                    "source": "wallapop", "backfill": first,
                 })
         ctx.ok("wallapop")
+        st["deep_done"] = True
     except Exception as e:
         ctx.fail("wallapop", e)
     return out

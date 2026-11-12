@@ -12,8 +12,9 @@ coincidono su tutti questi punti:
   - autografata o no
   - versione: home / away / terza / portiere / allenamento / edizione speciale
     (se il titolo non la dice vale come home, la maglia standard)
-Non c'e' nessun ripiego su maglie "genericamente simili": se i confronti
-specifici sono pochi lo diciamo.
+Se i simili specifici sono meno di MIN_COMPS si usa il confronto generico di
+prima (stesso tipo ed epoca), ma il giudizio viene segnalato come
+"basato su pochi annunci".
 
 Il riferimento e' la MEDIANA dei prezzi richiesti dei simili.
 Limiti: sono prezzi RICHIESTI, non venduti; taglia e condizioni non contano.
@@ -28,7 +29,8 @@ from .matching import normalize
 # Cambi approssimativi verso l'euro (bastano per un confronto di massima).
 TO_EUR = {"EUR": 1.0, "GBP": 1.17, "USD": 0.92, "CHF": 1.05}
 
-MIN_COMPS = 3          # simili specifici necessari per dare un giudizio
+MIN_COMPS = 3          # simili specifici necessari per un giudizio pieno
+GENERIC_MIN = 5        # annunci per il giudizio generico ("basato su pochi annunci")
 GOOD_BELOW = 0.75      # <= 75% della mediana  -> buon prezzo
 HIGH_ABOVE = 1.35      # >= 135% della mediana -> caro
 MAX_SHOWN = 5          # quanti simili salviamo per farli vedere
@@ -82,6 +84,7 @@ pantalone short shorts pants smanicato gilet bomber piumino parka windbreaker wa
 sweat sweatshirt hoodie jacket track tracksuit chandal survetement trainingsanzug zip zipper
 cotone polyester poliestere termica termico pile polo girocollo
 heim auswarts drittes ausweich fussball retro heimtrikot auswartstrikot ml
+extra veste survetement survet sweatshirt giubbino sudadera chandal trainingsjacke jacke
 xs xl xxl xxxl xxs
 cappuccio collezione erre ultras generation passeggio foot gold mens fanbase iconic skyline since passion
 silver urban evo awai royal merch stagione saison trenino leggera leggero runner lunghi especial edicion
@@ -204,53 +207,102 @@ def describe(p: dict) -> str:
     return " · ".join(bits)
 
 
+def _era(item) -> str:
+    y = item.get("year")
+    if not y:
+        return "?"
+    if y < 1990:
+        return "<1990"
+    if y < 2000:
+        return "1990s"
+    if y < 2010:
+        return "2000s"
+    if y < 2018:
+        return "2010-17"
+    return "2018+"
+
+
+def _generic_keys(item, p):
+    """Confronto GENERICO (il sistema di prima): stessa sezione, tipo,
+    adulto/bambino, capo e, se possibile, epoca."""
+    typ = next((t for t in TYPES if t in (item.get("tags") or [])), "nd")
+    base = (item.get("section"), typ, p["kid"])
+    keys = [base + (p["garment"], _era(item)), base + (p["garment"],)]
+    if p["garment"] == "maglia":
+        keys.append(base)
+    return keys
+
+
+def _verdict(price, ref) -> str:
+    ratio = price / ref
+    return "buono" if ratio <= GOOD_BELOW else "caro" if ratio >= HIGH_ABOVE else "in_linea"
+
+
 def rate_all(listings: list[dict]) -> None:
-    """Aggiunge a ogni annuncio: price_eur, price_rating, price_ref,
-    price_comps, price_match (cosa e' stato confrontato) e price_similar
-    (alcuni annunci usati per il confronto)."""
-    pool, prof = [], {}
+    """Aggiunge a ogni annuncio:
+      price_eur, price_rating (buono / in_linea / caro / listino, oppure
+      nessun_confronto), price_basis (specifico / pochi), price_ref,
+      price_comps, price_match (cosa e' stato confrontato), price_similar.
+
+    1) confronto SPECIFICO (stesso giocatore, stagione, tipo...): con almeno
+       MIN_COMPS simili il giudizio e' pieno (basis "specifico");
+    2) altrimenti si usa il confronto di prima, piu' generico, e il giudizio
+       e' segnalato come "basato su pochi annunci" (basis "pochi")."""
+    pool, prof, gpools = [], {}, {}
     for x in listings:
         x["price_eur"] = price_eur(x)
-        prof[id(x)] = profile(x)
+        prof[id(x)] = p = profile(x)
         # store ufficiale (prezzo di listino) e aste (prezzo non finale) esclusi
         if x["price_eur"] is not None and "store" not in (x.get("tags") or []) and not x.get("auction"):
             pool.append(x)
+            for k in _generic_keys(x, p):
+                gpools.setdefault(k, []).append(x["price_eur"])
 
     for x in listings:
         p = prof[id(x)]
-        for f in ("price_ref", "price_comps", "price_rating", "price_match", "price_similar"):
+        for f in ("price_ref", "price_comps", "price_rating", "price_match",
+                  "price_similar", "price_basis", "price_specific"):
             x.pop(f, None)
         if "store" in (x.get("tags") or []):
             x["price_rating"] = "listino"
             continue
         if x["price_eur"] is None or x.get("auction"):
             continue
-        x["price_match"] = describe(p)
-        if not p["names"] and not p["season"]:
-            # troppo generica: senza giocatore ne' stagione non c'e' un
-            # confronto "specifico" possibile (lo sponsor tecnico da solo
-            # copre piu' stagioni: Kappa 2018-24, Erreà 2005-15...)
-            x["price_rating"] = "generico"
-            x["price_comps"] = 0
+
+        # 1) simili specifici
+        comps = []
+        if p["names"] or p["season"]:
+            seen = set()
+            for y in pool:
+                if y is x or y["id"] == x["id"]:
+                    continue
+                key = (normalize(y["title"]), y["price_eur"])   # niente doppioni
+                if key in seen or key == (normalize(x["title"]), x["price_eur"]):
+                    continue
+                if similar(p, prof[id(y)]):
+                    seen.add(key)
+                    comps.append(y)
+        x["price_specific"] = len(comps)
+        if len(comps) >= MIN_COMPS:
+            ref = median(c["price_eur"] for c in comps)
+            x.update(price_basis="specifico", price_match=describe(p), price_ref=round(ref),
+                     price_comps=len(comps), price_rating=_verdict(x["price_eur"], ref),
+                     price_similar=[{"title": c["title"], "price_eur": c["price_eur"], "url": c["url"]}
+                                    for c in sorted(comps, key=lambda c: c["price_eur"])[:MAX_SHOWN]])
             continue
-        seen, comps = set(), []
-        for y in pool:
-            if y is x or y["id"] == x["id"]:
-                continue
-            key = (normalize(y["title"]), y["price_eur"])   # niente doppioni
-            if key in seen or key == (normalize(x["title"]), x["price_eur"]):
-                continue
-            if similar(p, prof[id(y)]):
-                seen.add(key)
-                comps.append(y)
-        x["price_comps"] = len(comps)
-        if comps:
-            x["price_ref"] = round(median(c["price_eur"] for c in comps))
-            x["price_similar"] = [{"title": c["title"], "price_eur": c["price_eur"], "url": c["url"]}
-                                  for c in sorted(comps, key=lambda c: c["price_eur"])[:MAX_SHOWN]]
-        if len(comps) < MIN_COMPS:
-            x["price_rating"] = "pochi_simili"
+
+        # 2) ripiego: confronto generico di prima, segnalato come poco affidabile
+        others = []
+        for k in _generic_keys(x, p):
+            others = list(gpools.get(k, []))
+            if x["price_eur"] in others:
+                others.remove(x["price_eur"])
+            if len(others) >= GENERIC_MIN:
+                break
+        if len(others) < GENERIC_MIN:
+            x["price_rating"] = "nessun_confronto"
             continue
-        ratio = x["price_eur"] / x["price_ref"]
-        x["price_rating"] = ("buono" if ratio <= GOOD_BELOW
-                             else "caro" if ratio >= HIGH_ABOVE else "in_linea")
+        ref = median(others)
+        x.update(price_basis="pochi", price_ref=round(ref), price_comps=len(others),
+                 price_rating=_verdict(x["price_eur"], ref),
+                 price_match="confronto generico" + (f" (simili specifici: {len(comps)})" if comps else ""))

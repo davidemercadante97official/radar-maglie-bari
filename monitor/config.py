@@ -87,7 +87,7 @@ EXCLUDE_WORDS = [
     r"\bminiatura\b", r"\bmini ?kit\b", r"\bstatuett[ae]\b", r"\bfunko\b",
     r"\blego\b", r"\bsubbuteo\b", r"\bpupazzo\b", r"\bpeluche\b",
     r"\bmaglione di natale\b", r"\bscaldacollo\b", r"\bcartella\b", r"\bbarattolo\b",
-    r"\blatta\b",
+    r"\blatta\b", r"\bcards?\b",
     # altri sport e squadre di Bari che non sono il calcio
     r"\bbasket\b", r"\bpallacanestro\b", r"\bnba\b", r"\bvolley\b",
     r"\bpallavolo\b", r"\brugby\b", r"\bfutsal\b", r"\bcalcio a 5\b",
@@ -158,8 +158,10 @@ SUBITO_QUERIES = [
 ]
 
 VINTED = {
-    "www.vinted.it": ["maglia bari", "as bari", "ssc bari", "bari vintage",
-                      "tuta bari", "giacca bari", "felpa bari",
+    "www.vinted.it": ["maglia bari", "as bari", "ssc bari", "fc bari", "bari calcio",
+                      "bari vintage", "maglietta bari", "tuta bari", "giacca bari",
+                      "felpa bari", "pantaloncini bari", "smanicato bari",
+                      "bari kappa", "bari errea", "bari lotto", "bari adidas",
                       "maglia wuber", "maglia gaudianello"],
     "www.vinted.fr": ["maillot bari"],
     "www.vinted.de": ["bari trikot"],

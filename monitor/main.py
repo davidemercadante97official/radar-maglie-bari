@@ -108,7 +108,7 @@ def run(only=None, dry_run=False):
             traceback.print_exc()
             ctx.fail(name, e)
 
-    new_items, seen_now = [], set()
+    new_items, old_found, seen_now = [], [], set()
     for raw in raw_items:
         if not raw.get("title") or not raw.get("url"):
             continue
@@ -138,14 +138,19 @@ def run(only=None, dry_run=False):
             "location": raw.get("location", ""), "available": raw.get("available", True),
             "first_seen": t, "last_seen": t, **info,
         }
-        if seed:
-            item["seed"] = True     # archivio iniziale: non e' "nuovo"
         by_id[iid] = item
-        new_items.append(item)
+        if seed or raw.get("backfill"):
+            # archivio iniziale o annuncio vecchio trovato scavando nelle
+            # pagine successive: in dashboard, ma senza notifica singola
+            item["seed"] = True
+            old_found.append(item)
+        else:
+            new_items.append(item)
 
     merged = sorted(by_id.values(), key=lambda x: x["first_seen"], reverse=True)[: config.MAX_STORED]
     pricing.rate_all(merged)   # giudizio prezzo: buono / in linea / caro
-    print(f"\nNuovi annunci: {len(new_items)}  |  in archivio: {len(merged)}")
+    print(f"\nNuovi annunci: {len(new_items)}  |  vecchi ritrovati: {len(old_found)}"
+          f"  |  in archivio: {len(merged)}")
 
     sent = 0
     if seed:
@@ -163,6 +168,10 @@ def run(only=None, dry_run=False):
         extra = len(new_items) - config.MAX_ALERTS_PER_RUN
         if extra > 0 and notify.enabled() and not dry_run:
             notify.send_text(f"…e altri <b>{extra}</b> annunci nuovi: guardali nella dashboard.")
+        if len(old_found) >= 5 and notify.enabled() and not dry_run:
+            notify.send_text(f"📦 Ho ritrovato <b>{len(old_found)}</b> annunci meno recenti "
+                             f"ancora in vendita (pagine successive dei risultati): "
+                             f"sono nella dashboard.")
 
     state["initialized"] = True
     state["last_run"] = t

@@ -128,7 +128,6 @@ details.health summary{cursor:pointer;font-weight:600}
       <option value="buono">Buon prezzo</option>
       <option value="in_linea">In linea</option>
       <option value="caro">Caro</option>
-      <option value="pochi_simili">Senza confronto specifico</option>
     </select>
     <label class="chk"><input type="checkbox" id="fresh"> Solo ultime 24 ore</label>
     <label class="chk"><input type="checkbox" id="avail" checked> Nascondi esauriti</label>
@@ -175,7 +174,7 @@ function filtered(){
   let xs=ALL.filter(x=>{
     if(state.sec!=="tutto"&&x.section!==state.sec)return false;
     if(state.source&&x.source!==state.source)return false;
-    if(state.prating&&x.price_rating!==state.prating&&!(state.prating==="pochi_simili"&&x.price_rating==="generico"))return false;
+    if(state.prating&&x.price_rating!==state.prating)return false;
     if(state.fresh&&!isNew(x))return false;
     if(state.avail&&x.available===false)return false;
     if(state.tags.size){const tg=x.tags||[];const ok=[...state.tags].some(t=>t==="_none"?tg.length===0:tg.includes(t));if(!ok)return false}
@@ -198,11 +197,10 @@ function card(x){
   const sim=(x.price_similar||[]).map(c=>`• ${eur(c.price_eur)} – ${c.title}`).join("\n");
   const tip=esc(`Confrontata solo con: ${x.price_match||""}`+(sim?`\n\nAnnunci usati per il confronto:\n${sim}`:""));
   const why=x.price_match?`<span class="pm">${esc(x.price_match)}</span>`:"";
-  const pv=RL[x.price_rating]?`<div class="pv" title="${tip}"><span class="pr ${x.price_rating}">${RL[x.price_rating]}</span>${x.price_comps} simili specifici ~${eur(x.price_ref)}${why}</div>`
+  const pv=RL[x.price_rating]&&x.price_basis==="specifico"?`<div class="pv" title="${tip}"><span class="pr ${x.price_rating}">${RL[x.price_rating]}</span>${x.price_comps} simili specifici ~${eur(x.price_ref)}${why}</div>`
+    :RL[x.price_rating]?`<div class="pv" title="Pochi annunci specificamente simili (stesso giocatore, stagione, tipo): il giudizio usa il confronto generico con ${x.price_comps} maglie dello stesso tipo ed epoca"><span class="pr ${x.price_rating}">${RL[x.price_rating]}</span>simili ~${eur(x.price_ref)}<span class="pm">⚠️ giudizio basato su pochi annunci</span></div>`
     :x.price_rating==="listino"?`<div class="pv">prezzo di listino</div>`
-    :x.price_rating==="pochi_simili"&&x.price_comps?`<div class="pv" title="${tip}">solo ${x.price_comps===1?"1 simile specifico":x.price_comps+" simili specifici"} (~${eur(x.price_ref)}): nessun giudizio${why}</div>`
-    :x.price_rating==="pochi_simili"?`<div class="pv" title="${tip}">nessun confronto specifico${why}</div>`
-    :x.price_rating==="generico"?`<div class="pv" title="Il titolo non indica né il giocatore né la stagione: non si può confrontare con maglie specificamente simili">titolo troppo generico per un confronto</div>`:"";
+    :x.price!=null&&!x.auction?`<div class="pv">pochi simili per un confronto</div>`:"";
   return `<a class="card" href="${esc(x.url)}" target="_blank" rel="noopener">
     <div class="thumb"><span class="ph">👕</span>${img}${isNew(x)?'<span class="new">NUOVO</span>':""}${x.available===false?'<span class="sold">esaurito</span>':""}</div>
     <div class="body"><div class="title">${esc(x.title)}</div>${tags?`<div class="tags">${tags}</div>`:""}
