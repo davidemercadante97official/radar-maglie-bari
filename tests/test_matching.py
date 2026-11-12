@@ -44,6 +44,25 @@ DROP = [
     "2025/26 Bari concept kit",
 ]
 
+# eBay (ricerca mondiale): "Bari" come colore, modello, nome...
+EBAY_DROP = [
+    "Vernice Ritocco Per Lancia Lybra 619/A Argento Bari Kit Vernice Ritocco Pennino",
+    "Pantaloncini chino uomo BRAX Bari 42 kaki birdseye regular fit",
+    "Hasegawa Bari Bari Densetsu Honda NSR500 Koma Gun 1/12 Plastic Model kit SP338",
+    "Kit Carson '40 DANA ANDREWS WARD BOND LYNN BARI JON HALL",
+    "MAGLIETTA TURI RETRO SCRIPT BARI ITALIA",
+    "EA7 SSC Napoli Maglia Home 2024/25 blu MSC Sorgesana taglia L uomo",
+    "DASSY Bari Shorts kurze Arbeitshose",
+    "IL GIOCATORE CHIAVE.Portachiavi, maglia Gerson De Paula Bari 1994/95 ospiti",
+]
+EBAY_KEEP = [
+    "Maglia Bari Calcio Match Worn Shirt Nunzio Lella - Bari-Samp(1-1) del 02.03.2025",
+    "0038 BARI ERREA Trainingsanzug Repräsentationsanzug Suit",
+    "Pantaloncini MATCH WORN BARI",
+    "ICONIC - Felpa SSC Bari girocollo nera Skyline",
+    "Bari 1999-2000 FOOTBALL jacket giacca tuta calcio XL Lotto tele + Vintage",
+]
+
 
 def main():
     bad = 0
@@ -57,7 +76,16 @@ def main():
         if r:
             bad += 1
             print("DROP FALLITO:", title, "->", r)
-    print(f"{len(KEEP) + len(DROP) - bad}/{len(KEEP) + len(DROP)} casi OK")
+    for title in EBAY_DROP:
+        if classify(title, "marketplace", strict=True):
+            bad += 1
+            print("EBAY DROP FALLITO:", title)
+    for title in EBAY_KEEP:
+        if not classify(title, "marketplace", strict=True):
+            bad += 1
+            print("EBAY KEEP FALLITO:", title)
+    n = len(KEEP) + len(DROP) + len(EBAY_DROP) + len(EBAY_KEEP)
+    print(f"{n - bad}/{n} casi OK")
     raise SystemExit(1 if bad else 0)
 
 

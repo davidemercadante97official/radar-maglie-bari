@@ -37,6 +37,7 @@ EXPLICIT = re.compile(config.CLUB_EXPLICIT)
 TSHIRT = re.compile(config.TSHIRT_PATTERN)
 TSHIRT_OK = re.compile(config.TSHIRT_OK)
 TAGS = {k: _compile(v) for k, v in config.TAG_RULES.items()}
+FOOTBALL = re.compile(config.FOOTBALL_CONTEXT)
 MODERN = _compile(config.MODERN_HINTS)
 BRAND_YEAR = [(re.compile(p), y) for p, y in config.BRAND_YEAR.items()]
 TECH_COUNT = 8   # le prime 8 voci di BRAND_YEAR sono sponsor tecnici
@@ -74,7 +75,7 @@ def season_year(text: str) -> int | None:
     return None
 
 
-def classify(title: str, source_kind: str = "") -> dict | None:
+def classify(title: str, source_kind: str = "", strict: bool = False) -> dict | None:
     """Ritorna {section, tags, year, keyword} oppure None se va scartato.
 
     section: "maglie" | "abbigliamento"
@@ -107,6 +108,13 @@ def classify(title: str, source_kind: str = "") -> dict | None:
     # Keyword trovata ma nessun capo nominato (es. "Protti Bari autografo"):
     # se parla di autografi/firme e' quasi sempre un cartoncino, non una maglia.
     if not (is_shirt or is_apparel) and re.search(r"autograf|signed|firmat|signiert", t):
+        return None
+
+    # Su eBay (ricerca mondiale) "Bari" e' anche un colore (Argento Bari), un
+    # modello (pantaloncini BRAX Bari), un cognome...: serve un indizio di calcio.
+    if strict and not (
+            EXPLICIT.search(t) or FOOTBALL.search(t) or _any(SPONSORS, t)
+            or season_year(t) or any(p.search(t) for p, _ in BRAND_YEAR)):
         return None
 
     section = "abbigliamento" if is_apparel else "maglie"

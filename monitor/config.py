@@ -87,7 +87,16 @@ EXCLUDE_WORDS = [
     r"\bminiatura\b", r"\bmini ?kit\b", r"\bstatuett[ae]\b", r"\bfunko\b",
     r"\blego\b", r"\bsubbuteo\b", r"\bpupazzo\b", r"\bpeluche\b",
     r"\bmaglione di natale\b", r"\bscaldacollo\b", r"\bcartella\b", r"\bbarattolo\b",
-    r"\blatta\b", r"\bcards?\b",
+    r"\blatta\b", r"\bcards?\b", r"portachiavi",
+    # eBay: "Bari" come colore, modello o nome
+    r"\bvernice\b", r"\britocco\b", r"\bpeinture\b", r"\bretouche\b", r"\blackstift\b",
+    r"\bmodel ?kit\b", r"\bmodellin[oi]\b", r"\b1 (6|8|10|12|18|20|24|32|35|43|48|72|100|144)\b", r"\bbrax\b", r"\bchino\b",
+    r"\bairfield\b", r"\blynn bari\b", r"\bclarinett\w*\b", r"\bboccaglio\b",
+    r"\bmoderoid\b", r"\bgravion\b", r"\byamaha\b", r"\bkawasaki\b", r"\bsequin\w*\b",
+    r"\blentejuelas\b", r"\bpaillettes\b", r"\bself defense\b",
+    r"\bretro script\b", r"\blogo retro\b", r"\bretro logo\b", r"\bvarsity\b", r"\bradsport\b", r"\bfahrrad\b",
+    r"\bpuglia puglia\b", r"\bsoftair\b", r"\bvelo\b", r"\bcyclisme\b", r"\bcycling\b",
+    r"\bciclismo\b", r"\bde punto\b", r"\bcontessa\b",
     # altri sport e squadre di Bari che non sono il calcio
     r"\bbasket\b", r"\bpallacanestro\b", r"\bnba\b", r"\bvolley\b",
     r"\bpallavolo\b", r"\brugby\b", r"\bfutsal\b", r"\bcalcio a 5\b",
@@ -113,8 +122,19 @@ OTHER_CLUBS = [
     r"\bfasano\b", r"\bbrindisi\b", r"\bcasarano\b", r"\bcerignola\b",
     r"\bmartina\b", r"\bgravina\b", r"\bnoicattaro\b", r"\bcorato\b",
     r"\bbitonto\b", r"\btrani\b", r"\bmanfredonia\b", r"\bnardo\b",
+    r"\bnapoli\b", r"\bcastellana\b", r"\bturi\b", r"\bputignano\b", r"\bconversano\b",
+    r"\bpolignano\b", r"\bmola\b", r"\bmodugno\b", r"\btriggiano\b", r"\bbitetto\b",
 ]
 CLUB_EXPLICIT = r"\b(as|ssc|fc|us) ?bari\b|\bbari (calcio|1908|fc)\b"
+
+# Indizi che l'annuncio parla di calcio (richiesti sui marketplace, dove
+# "Bari" puo' essere un colore, un modello di pantaloni, un cognome...).
+FOOTBALL_CONTEXT = (r"\b(calcio|football|soccer|fussball|futbol|futebol|voetbal\w*|foot|"
+                    r"trikot|maillot|camiseta|camisola|jersey|maglia|maglie|maglietta|"
+                    r"casacca|divisa|completino|galletti|biancoross\w*|serie [abc]|"
+                    r"match|worn|issued?|indossata|preparata|player|home|away|third|"
+                    r"portiere|goalkeeper|curva|stadio|san nicola|ultras?|fans?|errea|"
+                    r"indossat\w*|tifos\w*)\b")
 
 # Le t-shirt "fashion" sono scartate, a meno che siano da allenamento/pre gara.
 TSHIRT_PATTERN = r"\bt ?shirts?\b|\btee\b"
