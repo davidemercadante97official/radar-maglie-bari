@@ -3804,16 +3804,16 @@
   }
  },
  "initialized": true,
- "last_run": "2026-11-13T03:18:03+00:00",
+ "last_run": "2026-11-13T04:28:25+00:00",
  "vinted": {
-  "cursor": 18
+  "cursor": 20
  },
  "wallapop": {
   "deep_done": true
  },
  "ebay": {
-  "last_call": 1794539883.4413772,
-  "cursor": 6,
+  "last_call": 1794544105.1506877,
+  "cursor": 7,
   "started": true
  }
 }
