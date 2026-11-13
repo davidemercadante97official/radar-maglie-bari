@@ -3722,20 +3722,24 @@
    "141131": [
     "Maglia gara Barreto Bari",
     "https://backend.memorabid.com/media/articles/92844/137f3d81-8926-4b70-9850-6f686991b00b.jpg?w=600"
+   ],
+   "141864": [
+    "Maglia gara Mancini Bari",
+    "https://backend.memorabid.com/media/articles/64851/b5ba8594-66de-4dff-8f14-32990b899743.jpg?w=600"
    ]
   }
  },
  "initialized": true,
- "last_run": "2026-11-13T19:37:32+00:00",
+ "last_run": "2026-11-13T20:35:27+00:00",
  "vinted": {
-  "cursor": 6
+  "cursor": 8
  },
  "wallapop": {
   "deep_done": true
  },
  "ebay": {
-  "last_call": 1794598652.2494543,
-  "cursor": 4,
+  "last_call": 1794602127.2828522,
+  "cursor": 5,
   "started": true
  }
 }
