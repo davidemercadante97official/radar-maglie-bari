@@ -2930,16 +2930,16 @@
   }
  },
  "initialized": true,
- "last_run": "2026-11-14T15:55:29+00:00",
+ "last_run": "2026-11-14T16:33:53+00:00",
  "vinted": {
-  "cursor": 8
+  "cursor": 10
  },
  "wallapop": {
   "deep_done": true
  },
  "ebay": {
-  "last_call": 1794671729.382425,
-  "cursor": 9,
+  "last_call": 1794674033.5408468,
+  "cursor": 10,
   "started": true
  }
 }
