@@ -56,6 +56,9 @@ EBAY_DROP = [
     "IL GIOCATORE CHIAVE.Portachiavi, maglia Gerson De Paula Bari 1994/95 ospiti",
     "DI BARI Maglione lavorato a maglia Donna Maglione Taglia IT 44 verde-grigio",
     "Maglietta Bari Italia Porta d'Oriente",
+    "Giacca trapuntata vintage anni 90 Bari nera floreale indossabile arte",
+    "Vintage A.J. Giacca Bari donna 4 nera floreale jacquard bolero crop aperta davanti anni 90",
+    "Giacca Vintage A$AP Bari Arancione Anni 70 Patch Coach L Anni 80 Retrò Made USA",
     "Lotto 3 Bottiglie Coca-Cola Edizione Limitata 2019/2020 (Bari, Roma, Pizza) - 330 ml",
 ]
 EBAY_KEEP = [

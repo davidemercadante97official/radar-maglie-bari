@@ -98,6 +98,7 @@ EXCLUDE_WORDS = [
     r"\bpuglia puglia\b", r"\bsoftair\b", r"\bvelo\b", r"\bcyclisme\b", r"\bcycling\b",
     r"\bciclismo\b", r"\bde punto\b", r"\bcontessa\b",
     # maglioni di lana, souvenir turistici, bottiglie e lattine
+    r"\baj\b", r"\ba ?sap\b", r"\bbolero\b",
     r"\bmaglion[ei]\b", r"\blavorat[oa] a maglia\b", r"\bknit\w*\b", r"\bcardigan\b",
     r"\bsouvenir\b", r"\bporta d oriente\b", r"\bturist\w*\b", r"\bi love bari\b",
     r"\bcoca ?cola\b", r"\bbottigli\w*\b", r"\blattin\w*\b", r"\b\d+ ?ml\b",
@@ -138,7 +139,7 @@ FOOTBALL_CONTEXT = (r"\b(calcio|football|soccer|fussball|futbol|futebol|voetbal\
                     # "maglietta souvenir"... non basta come indizio di calcio
                     r"trikot|maillot|camiseta|camisola|jersey|gara|"
                     r"completino|galletti|biancoross\w*|serie [a-d]|amichevole|calciator\w*|"
-                    r"coppa italia|anni [5-9]0|nr? \d{1,2}|numero \d{1,2}|"
+                    r"coppa italia|nr? \d{1,2}|numero \d{1,2}|"
                     r"match|worn|issued?|indossata|preparata|player|home|away|third|"
                     r"portiere|goalkeeper|curva|stadio|san nicola|ultras?|fans?|errea|"
                     r"indossat\w*|tifos\w*)\b")
