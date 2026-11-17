@@ -54,6 +54,9 @@ EBAY_DROP = [
     "EA7 SSC Napoli Maglia Home 2024/25 blu MSC Sorgesana taglia L uomo",
     "DASSY Bari Shorts kurze Arbeitshose",
     "IL GIOCATORE CHIAVE.Portachiavi, maglia Gerson De Paula Bari 1994/95 ospiti",
+    "DI BARI Maglione lavorato a maglia Donna Maglione Taglia IT 44 verde-grigio",
+    "Maglietta Bari Italia Porta d'Oriente",
+    "Lotto 3 Bottiglie Coca-Cola Edizione Limitata 2019/2020 (Bari, Roma, Pizza) - 330 ml",
 ]
 EBAY_KEEP = [
     "Maglia Bari Calcio Match Worn Shirt Nunzio Lella - Bari-Samp(1-1) del 02.03.2025",
@@ -61,7 +64,10 @@ EBAY_KEEP = [
     "Pantaloncini MATCH WORN BARI",
     "ICONIC - Felpa SSC Bari girocollo nera Skyline",
     "Bari 1999-2000 FOOTBALL jacket giacca tuta calcio XL Lotto tele + Vintage",
+    "Maglia gara Barreto Bari",
+    "Maglia Bari 16/17 Galano",
 ]
+DROP += ["Lotto 3 Bottiglie Coca-Cola Edizione Limitata 2019/2020 (Bari, Roma, Pizza) - 330 ml"]
 
 
 def main():

@@ -158,6 +158,13 @@ def run(only=None, dry_run=False):
     print(f"\nNuovi annunci: {len(new_items)}  |  vecchi ritrovati: {len(old_found)}"
           f"  |  in archivio: {len(merged)}")
 
+    # salva PRIMA di mandare i messaggi: se Telegram si blocca a meta', gli
+    # annunci risultano comunque gia' visti e non vengono rimandati
+    state["initialized"] = True
+    state["last_run"] = t
+    save(LISTINGS, merged)
+    save(STATE, state)
+
     sent = 0
     if seed:
         print("Primo avvio: creo l'archivio senza mandare un messaggio per ogni annuncio.")
@@ -179,10 +186,6 @@ def run(only=None, dry_run=False):
                              f"ancora in vendita (pagine successive dei risultati): "
                              f"sono nella dashboard.")
 
-    state["initialized"] = True
-    state["last_run"] = t
-    save(LISTINGS, merged)
-    save(STATE, state)
     prev = load(STATUS, {}).get("sources", {})
     prev.update(ctx.status)
     save(STATUS, {"last_run": t, "seconds": round(time.time() - started, 1),

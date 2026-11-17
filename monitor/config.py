@@ -97,6 +97,10 @@ EXCLUDE_WORDS = [
     r"\bretro script\b", r"\blogo retro\b", r"\bretro logo\b", r"\bvarsity\b", r"\bradsport\b", r"\bfahrrad\b",
     r"\bpuglia puglia\b", r"\bsoftair\b", r"\bvelo\b", r"\bcyclisme\b", r"\bcycling\b",
     r"\bciclismo\b", r"\bde punto\b", r"\bcontessa\b",
+    # maglioni di lana, souvenir turistici, bottiglie e lattine
+    r"\bmaglion[ei]\b", r"\blavorat[oa] a maglia\b", r"\bknit\w*\b", r"\bcardigan\b",
+    r"\bsouvenir\b", r"\bporta d oriente\b", r"\bturist\w*\b", r"\bi love bari\b",
+    r"\bcoca ?cola\b", r"\bbottigli\w*\b", r"\blattin\w*\b", r"\b\d+ ?ml\b",
     # altri sport e squadre di Bari che non sono il calcio
     r"\bbasket\b", r"\bpallacanestro\b", r"\bnba\b", r"\bvolley\b",
     r"\bpallavolo\b", r"\brugby\b", r"\bfutsal\b", r"\bcalcio a 5\b",
@@ -130,8 +134,11 @@ CLUB_EXPLICIT = r"\b(as|ssc|fc|us) ?bari\b|\bbari (calcio|1908|fc)\b"
 # Indizi che l'annuncio parla di calcio (richiesti sui marketplace, dove
 # "Bari" puo' essere un colore, un modello di pantaloni, un cognome...).
 FOOTBALL_CONTEXT = (r"\b(calcio|football|soccer|fussball|futbol|futebol|voetbal\w*|foot|"
-                    r"trikot|maillot|camiseta|camisola|jersey|maglia|maglie|maglietta|"
-                    r"casacca|divisa|completino|galletti|biancoross\w*|serie [abc]|"
+                    # NIENTE "maglia/maglietta": su eBay e' anche "lavorato a maglia",
+                    # "maglietta souvenir"... non basta come indizio di calcio
+                    r"trikot|maillot|camiseta|camisola|jersey|gara|"
+                    r"completino|galletti|biancoross\w*|serie [a-d]|amichevole|calciator\w*|"
+                    r"coppa italia|anni [5-9]0|nr? \d{1,2}|numero \d{1,2}|"
                     r"match|worn|issued?|indossata|preparata|player|home|away|third|"
                     r"portiere|goalkeeper|curva|stadio|san nicola|ultras?|fans?|errea|"
                     r"indossat\w*|tifos\w*)\b")

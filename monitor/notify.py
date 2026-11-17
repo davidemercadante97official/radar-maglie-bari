@@ -18,14 +18,27 @@ def enabled() -> bool:
     return bool(os.getenv("TELEGRAM_BOT_TOKEN") and os.getenv("TELEGRAM_CHAT_ID"))
 
 
+class _Failed:
+    ok = False
+    status_code = 0
+
+
 def _api(method: str, **data):
+    """Chiamata a Telegram che non solleva MAI eccezioni: un Telegram lento
+    (es. foto che non si scarica) non deve far saltare il salvataggio
+    dell'archivio, altrimenti al giro dopo gli stessi annunci ripartono."""
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     data.setdefault("chat_id", os.environ["TELEGRAM_CHAT_ID"])
-    r = requests.post(f"https://api.telegram.org/bot{token}/{method}", data=data, timeout=30)
-    if r.status_code == 429:  # troppi messaggi: aspettiamo e riproviamo
-        time.sleep(int(r.json().get("parameters", {}).get("retry_after", 5)) + 1)
-        r = requests.post(f"https://api.telegram.org/bot{token}/{method}", data=data, timeout=30)
-    return r
+    url = f"https://api.telegram.org/bot{token}/{method}"
+    try:
+        r = requests.post(url, data=data, timeout=30)
+        if r.status_code == 429:  # troppi messaggi: aspettiamo e riproviamo
+            time.sleep(int(r.json().get("parameters", {}).get("retry_after", 5)) + 1)
+            r = requests.post(url, data=data, timeout=30)
+        return r
+    except requests.RequestException as e:
+        print(f"[Telegram] {method} non riuscito: {type(e).__name__}")
+        return _Failed()
 
 
 def fmt_price(item) -> str:
