@@ -194,7 +194,9 @@ def ebay(ctx):
         # ricerca a rotazione viene letta fino a EBAY_DEEP risultati (annunci
         # vecchi, senza notifica). Circa 22 chiamate a giro.
         searches = [(m, q) for m in config.EBAY_MARKETPLACES for q in config.EBAY_QUERIES]
-        first = not st.get("started")
+        # cat_version: dal filtro per categoria in poi gli annunci eBay gia'
+        # visti senza categoria vengono riletti in silenzio (niente notifiche)
+        first = not st.get("started") or st.get("cat_version") != 1
         i = st.get("cursor", 0) % len(searches)
         st["cursor"] = i + 1
         for n, (market, q) in enumerate(searches):
@@ -222,12 +224,16 @@ def ebay(ctx):
                         "source": "ebay." + market.split("_")[1].lower().replace("gb", "co.uk").replace("us", "com"),
                         "auction": "AUCTION" in (it.get("buyingOptions") or []),
                         "location": (it.get("itemLocation") or {}).get("country", ""),
+                        # categoria eBay (es. "Maglie da calcio > Calcio > ..."): decide
+                        # se l'annuncio e' davvero di calcio (vedi matching.classify)
+                        "category": " > ".join(c.get("categoryName", "") for c in (it.get("categories") or [])),
                         # primo giro eBay o pagine successive: archivio, niente notifiche
                         "backfill": first or offset > 0,
                     })
                 time.sleep(0.3)
         ctx.ok("ebay")
         st["started"] = True
+        st["cat_version"] = 1
     except Exception as e:
         ctx.fail("ebay", e)
     return out

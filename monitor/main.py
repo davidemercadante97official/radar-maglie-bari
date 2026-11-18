@@ -113,7 +113,8 @@ def run(only=None, dry_run=False):
         if not raw.get("title") or not raw.get("url"):
             continue
         kind = kind_of(raw)
-        info = classify(raw["title"], kind, strict=raw.get("source", "").startswith("ebay"))
+        info = classify(raw["title"], kind, strict=raw.get("source", "").startswith("ebay"),
+                        category=raw.get("category"))
         if not info:
             continue
         iid = raw["native_id"]
@@ -129,6 +130,8 @@ def run(only=None, dry_run=False):
                 cur["price"] = raw["price"]
             cur["available"] = raw.get("available", True)
             cur.update(info)            # se cambiano le regole, si aggiorna
+            if raw.get("category"):
+                cur["category"] = raw["category"]
             continue
         item = {
             "id": iid, "title": raw["title"].strip(), "url": raw["url"],
@@ -136,6 +139,7 @@ def run(only=None, dry_run=False):
             "image": raw.get("image", ""), "source": raw.get("source", ""),
             "kind": kind, "auction": bool(raw.get("auction")),
             "location": raw.get("location", ""), "available": raw.get("available", True),
+            **({"category": raw["category"]} if raw.get("category") else {}),
             "first_seen": t, "last_seen": t, **info,
         }
         by_id[iid] = item
@@ -150,7 +154,8 @@ def run(only=None, dry_run=False):
     # se le regole sono cambiate, toglie dall'archivio cio' che ora va scartato
     before = len(by_id)
     by_id = {k: x for k, x in by_id.items()
-             if classify(x["title"], x.get("kind", ""), strict=x.get("source", "").startswith("ebay"))}
+             if classify(x["title"], x.get("kind", ""), strict=x.get("source", "").startswith("ebay"),
+                         category=x.get("category"))}
     if len(by_id) < before:
         print(f"Tolti dall'archivio con le regole nuove: {before - len(by_id)}")
     merged = sorted(by_id.values(), key=lambda x: x["first_seen"], reverse=True)[: config.MAX_STORED]

@@ -38,6 +38,7 @@ TSHIRT = re.compile(config.TSHIRT_PATTERN)
 TSHIRT_OK = re.compile(config.TSHIRT_OK)
 TAGS = {k: _compile(v) for k, v in config.TAG_RULES.items()}
 FOOTBALL = re.compile(config.FOOTBALL_CONTEXT)
+FOOTBALL_CAT = re.compile(r"\b(calcio|football|fussball\w*|futbol|soccer)\b")
 MODERN = _compile(config.MODERN_HINTS)
 BRAND_YEAR = [(re.compile(p), y) for p, y in config.BRAND_YEAR.items()]
 TECH_COUNT = 8   # le prime 8 voci di BRAND_YEAR sono sponsor tecnici
@@ -75,7 +76,8 @@ def season_year(text: str) -> int | None:
     return None
 
 
-def classify(title: str, source_kind: str = "", strict: bool = False) -> dict | None:
+def classify(title: str, source_kind: str = "", strict: bool = False,
+             category: str | None = None) -> dict | None:
     """Ritorna {section, tags, year, keyword} oppure None se va scartato.
 
     section: "maglie" | "abbigliamento"
@@ -110,12 +112,18 @@ def classify(title: str, source_kind: str = "", strict: bool = False) -> dict | 
     if not (is_shirt or is_apparel) and re.search(r"autograf|signed|firmat|signiert", t):
         return None
 
-    # Su eBay (ricerca mondiale) "Bari" e' anche un colore (Argento Bari), un
-    # modello (pantaloncini BRAX Bari), un cognome...: serve un indizio di calcio.
-    if strict and not (
-            EXPLICIT.search(t) or FOOTBALL.search(t) or _any(SPONSORS, t)
-            or season_year(t) or any(p.search(t) for p, _ in BRAND_YEAR)):
-        return None
+    # eBay (ricerca mondiale): "Bari" e' anche un colore, un cognome, un
+    # modello di pantaloni, un sassofono... Le parole del titolo non bastano
+    # (camiseta = t-shirt, jersey = maglione...): decide la CATEGORIA eBay.
+    # Categoria di calcio -> ok; altre categorie (abbigliamento generico,
+    # libri...) -> solo se il titolo nomina esplicitamente il club.
+    if strict:
+        football_cat = bool(category and FOOTBALL_CAT.search(normalize(category)))
+        if not (football_cat or EXPLICIT.search(t)):
+            return None
+        if not football_cat and not (FOOTBALL.search(t) or season_year(t)
+                                     or any(p.search(t) for p, _ in BRAND_YEAR)):
+            return None
 
     section = "abbigliamento" if is_apparel else "maglie"
 

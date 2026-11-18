@@ -44,31 +44,36 @@ DROP = [
     "2025/26 Bari concept kit",
 ]
 
-# eBay (ricerca mondiale): "Bari" come colore, modello, nome...
+# eBay (ricerca mondiale): (titolo, categoria eBay)
+CAT_FOOT = "Squadre italiane > Sport e viaggi > Calcio > Maglie da calcio"
+CAT_TSHIRT = "T-Shirts > Men's Clothing > Clothes, Shoes & Accessories > Shirts & Tops > Men"
+CAT_SHORTS = "Shorts > Men's Clothing > Clothes, Shoes & Accessories > Men"
+CAT_BOOKS = "Books > Books & Magazines"
 EBAY_DROP = [
-    "Vernice Ritocco Per Lancia Lybra 619/A Argento Bari Kit Vernice Ritocco Pennino",
-    "Pantaloncini chino uomo BRAX Bari 42 kaki birdseye regular fit",
-    "Hasegawa Bari Bari Densetsu Honda NSR500 Koma Gun 1/12 Plastic Model kit SP338",
-    "Kit Carson '40 DANA ANDREWS WARD BOND LYNN BARI JON HALL",
-    "MAGLIETTA TURI RETRO SCRIPT BARI ITALIA",
-    "EA7 SSC Napoli Maglia Home 2024/25 blu MSC Sorgesana taglia L uomo",
-    "DASSY Bari Shorts kurze Arbeitshose",
-    "IL GIOCATORE CHIAVE.Portachiavi, maglia Gerson De Paula Bari 1994/95 ospiti",
-    "DI BARI Maglione lavorato a maglia Donna Maglione Taglia IT 44 verde-grigio",
-    "Maglietta Bari Italia Porta d'Oriente",
-    "Giacca trapuntata vintage anni 90 Bari nera floreale indossabile arte",
-    "Vintage A.J. Giacca Bari donna 4 nera floreale jacquard bolero crop aperta davanti anni 90",
-    "Giacca Vintage A$AP Bari Arancione Anni 70 Patch Coach L Anni 80 Retrò Made USA",
-    "Lotto 3 Bottiglie Coca-Cola Edizione Limitata 2019/2020 (Bari, Roma, Pizza) - 330 ml",
+    ("Vernice Ritocco Per Lancia Lybra 619/A Argento Bari Kit Vernice Ritocco Pennino", "Ricambi auto"),
+    ("Pantaloncini chino uomo BRAX Bari 42 kaki birdseye regular fit", CAT_SHORTS),
+    ("Kit Carson '40 DANA ANDREWS WARD BOND LYNN BARI JON HALL", "Film"),
+    ("EA7 SSC Napoli Maglia Home 2024/25 blu MSC Sorgesana taglia L uomo", CAT_FOOT),
+    ("DI BARI Maglione lavorato a maglia Donna Maglione Taglia IT 44 verde-grigio", "Maglioni > Donna"),
+    ("Maglietta Bari Italia Porta d'Oriente", CAT_TSHIRT),
+    ("Camiseta Bari Italia Puerta de Oriente", CAT_TSHIRT),
+    ("CAMISETA MIEMBRO ORGULLOSO DE LA FAMILIA BARI apellido herencia", CAT_TSHIRT),
+    ("Saxofón Bari Sax Patente Estilo Genial Saxofonista Camiseta", CAT_TSHIRT),
+    ("Bari jersey size L", CAT_TSHIRT),
+    ("A GUIDE TO ALIMONY IN NEW JERSEY (2ND EDITION) By Weinberger Bari Zell", CAT_BOOKS),
+    ("Giacca trapuntata vintage anni 90 Bari nera floreale indossabile arte", "Coats, Jackets & Vests"),
+    ("Camiseta Koma Gun Blanca Talla Libre Dreamy Kuji Bari Bari Densetsu", "Animation Merchandise"),
+    ("Camiseta Bari Italia 2010", None),   # annuncio vecchio senza categoria
 ]
 EBAY_KEEP = [
-    "Maglia Bari Calcio Match Worn Shirt Nunzio Lella - Bari-Samp(1-1) del 02.03.2025",
-    "0038 BARI ERREA Trainingsanzug Repräsentationsanzug Suit",
-    "Pantaloncini MATCH WORN BARI",
-    "ICONIC - Felpa SSC Bari girocollo nera Skyline",
-    "Bari 1999-2000 FOOTBALL jacket giacca tuta calcio XL Lotto tele + Vintage",
-    "Maglia gara Barreto Bari",
-    "Maglia Bari 16/17 Galano",
+    ("Maglia Bari Calcio Match Worn Shirt Nunzio Lella - Bari-Samp(1-1) del 02.03.2025", CAT_FOOT),
+    ("Maglia gara Barreto Bari", CAT_FOOT),
+    ("Maglia Bari Romizi", CAT_FOOT),
+    ("Bari jersey size L", "Soccer-International Clubs > Fan Apparel & Souvenirs"),
+    ("SSC Bari Zeus schwarze Herren Fußballshorts Größe M", CAT_SHORTS),
+    ("Pantaloncini Errea SSC Bari primi anni 2000 (con etichette) S", CAT_SHORTS),
+    ("Felpa Erreà AS Bari Taglia XL - Sportiva e Confortevole", "Felpe > Abbigliamento sportivo > Uomo"),
+    ("0038 BARI ERREA Trainingsanzug Repräsentationsanzug Suit", "Sonstige > Sport > Fußball"),
 ]
 DROP += ["Lotto 3 Bottiglie Coca-Cola Edizione Limitata 2019/2020 (Bari, Roma, Pizza) - 330 ml"]
 
@@ -85,12 +90,12 @@ def main():
         if r:
             bad += 1
             print("DROP FALLITO:", title, "->", r)
-    for title in EBAY_DROP:
-        if classify(title, "marketplace", strict=True):
+    for title, cat in EBAY_DROP:
+        if classify(title, "marketplace", strict=True, category=cat):
             bad += 1
             print("EBAY DROP FALLITO:", title)
-    for title in EBAY_KEEP:
-        if not classify(title, "marketplace", strict=True):
+    for title, cat in EBAY_KEEP:
+        if not classify(title, "marketplace", strict=True, category=cat):
             bad += 1
             print("EBAY KEEP FALLITO:", title)
     n = len(KEEP) + len(DROP) + len(EBAY_DROP) + len(EBAY_KEEP)
