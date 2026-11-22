@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-22T03:23:05+00:00",
- "seconds": 256.5,
+ "last_run": "2026-11-22T04:29:17+00:00",
+ "seconds": 260.8,
  "new": 0,
  "sent": 0,
  "total": 2006,
@@ -8,92 +8,92 @@
   "ebay": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:23:21+00:00"
+   "at": "2026-11-22T04:29:30+00:00"
   },
   "subito.it": {
    "ok": false,
    "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.subito.it/annunci-italia/vendita/usato/?q=maglia+bari&order=datedesc",
-   "at": "2026-11-22T03:23:21+00:00"
+   "at": "2026-11-22T04:29:31+00:00"
   },
   "vinted.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:24:45+00:00"
+   "at": "2026-11-22T04:30:53+00:00"
   },
   "vinted.fr": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:24:48+00:00"
+   "at": "2026-11-22T04:30:55+00:00"
   },
   "vinted.de": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:24:51+00:00"
+   "at": "2026-11-22T04:30:58+00:00"
   },
   "vinted.es": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:24:53+00:00"
+   "at": "2026-11-22T04:31:00+00:00"
   },
   "vinted.co.uk": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:24:55+00:00"
+   "at": "2026-11-22T04:31:02+00:00"
   },
   "wallapop": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:25:30+00:00"
+   "at": "2026-11-22T04:31:38+00:00"
   },
   "le7sorelle.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:25:38+00:00"
+   "at": "2026-11-22T04:31:47+00:00"
   },
   "first11shirts.com": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:25:46+00:00"
+   "at": "2026-11-22T04:31:54+00:00"
   },
   "cultkits.com": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:25:55+00:00"
+   "at": "2026-11-22T04:32:03+00:00"
   },
   "classicfootballkit.de": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:26:03+00:00"
+   "at": "2026-11-22T04:32:11+00:00"
   },
   "casualfootballshirts.co.uk": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:26:12+00:00"
+   "at": "2026-11-22T04:32:19+00:00"
   },
   "footballworldgs.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:26:16+00:00"
+   "at": "2026-11-22T04:32:23+00:00"
   },
   "store.sscalciobari.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:26:33+00:00"
+   "at": "2026-11-22T04:32:40+00:00"
   },
   "mws.com": {
    "ok": false,
    "note": "HTTPError: 410 Client Error: Gone for url: https://mws.com/it/product/alphonso-davies-OGWgI-wKyUKbIIY-aKSo8Q",
-   "at": "2026-11-22T03:26:44+00:00"
+   "at": "2026-11-22T04:32:50+00:00"
   },
   "memorabid.com": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T03:26:47+00:00"
+   "at": "2026-11-22T04:32:52+00:00"
   },
   "google": {
    "ok": null,
    "note": "facoltativo: mancano GOOGLE_API_KEY / GOOGLE_CX",
-   "at": "2026-11-22T03:26:47+00:00"
+   "at": "2026-11-22T04:32:52+00:00"
   }
  }
 }
