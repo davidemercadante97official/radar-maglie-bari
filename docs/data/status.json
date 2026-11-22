@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-22T17:58:32+00:00",
- "seconds": 247.5,
+ "last_run": "2026-11-22T18:46:27+00:00",
+ "seconds": 257.1,
  "new": 0,
  "sent": 0,
  "total": 2026,
@@ -8,92 +8,92 @@
   "ebay": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T17:58:52+00:00"
+   "at": "2026-11-22T18:46:42+00:00"
   },
   "subito.it": {
    "ok": false,
    "note": "HTTPError: 403 Client Error: Forbidden for url: https://www.subito.it/annunci-italia/vendita/usato/?q=maglia+bari&order=datedesc",
-   "at": "2026-11-22T17:58:52+00:00"
+   "at": "2026-11-22T18:46:42+00:00"
   },
   "vinted.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:00:09+00:00"
+   "at": "2026-11-22T18:48:08+00:00"
   },
   "vinted.fr": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:00:11+00:00"
+   "at": "2026-11-22T18:48:11+00:00"
   },
   "vinted.de": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:00:14+00:00"
+   "at": "2026-11-22T18:48:13+00:00"
   },
   "vinted.es": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:00:16+00:00"
+   "at": "2026-11-22T18:48:15+00:00"
   },
   "vinted.co.uk": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:00:18+00:00"
+   "at": "2026-11-22T18:48:17+00:00"
   },
   "wallapop": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:00:52+00:00"
+   "at": "2026-11-22T18:48:52+00:00"
   },
   "le7sorelle.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:00+00:00"
+   "at": "2026-11-22T18:49:01+00:00"
   },
   "first11shirts.com": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:09+00:00"
+   "at": "2026-11-22T18:49:09+00:00"
   },
   "cultkits.com": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:17+00:00"
+   "at": "2026-11-22T18:49:18+00:00"
   },
   "classicfootballkit.de": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:25+00:00"
+   "at": "2026-11-22T18:49:27+00:00"
   },
   "casualfootballshirts.co.uk": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:32+00:00"
+   "at": "2026-11-22T18:49:35+00:00"
   },
   "footballworldgs.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:36+00:00"
+   "at": "2026-11-22T18:49:39+00:00"
   },
   "store.sscalciobari.it": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:52+00:00"
+   "at": "2026-11-22T18:49:56+00:00"
   },
   "mws.com": {
    "ok": true,
    "note": "0 lotti nuovi controllati",
-   "at": "2026-11-22T18:01:53+00:00"
+   "at": "2026-11-22T18:49:57+00:00"
   },
   "memorabid.com": {
    "ok": true,
    "note": "",
-   "at": "2026-11-22T18:01:55+00:00"
+   "at": "2026-11-22T18:50:00+00:00"
   },
   "google": {
    "ok": null,
    "note": "facoltativo: mancano GOOGLE_API_KEY / GOOGLE_CX",
-   "at": "2026-11-22T18:01:55+00:00"
+   "at": "2026-11-22T18:50:00+00:00"
   }
  }
 }
