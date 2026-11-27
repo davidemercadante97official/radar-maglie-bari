@@ -2740,20 +2740,24 @@
    "142710": [
     "Maglia gara Bonucci Bari",
     "https://backend.memorabid.com/media/articles/94073/af6f6c6d-47f3-4b17-8718-ed4b8e045fa3.jpg?w=600"
+   ],
+   "127552": [
+    "Maglia gara Gazzi Bari",
+    "https://backend.memorabid.com/media/articles/82192/5d32c66a-35db-48f8-a56a-41dbe3b4253a.jpg?w=600"
    ]
   }
  },
  "initialized": true,
- "last_run": "2026-11-27T20:51:37+00:00",
+ "last_run": "2026-11-27T21:51:10+00:00",
  "vinted": {
-  "cursor": 12
+  "cursor": 14
  },
  "wallapop": {
   "deep_done": true
  },
  "ebay": {
-  "last_call": 1795812697.6101727,
-  "cursor": 17,
+  "last_call": 1795816270.2675095,
+  "cursor": 18,
   "started": true,
   "cat_version": 1
  }
